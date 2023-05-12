@@ -1,30 +1,30 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
-import Home from './pages/Home';
 import About from './pages/About';
-import Blog from './pages/Blog';
+import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('About');
 
   // This method is responsible for rendering the appropriate page component based on the value of `currentPage`.
   // It uses conditional statements (`if` and `else`) to determine which component to render.
   // If `currentPage` is 'Home', it returns the `Home` component.
   // If `currentPage` is 'About', it returns the `About` component.
-  // If `currentPage` is 'Blog', it returns the `Blog` component.
+  // If `currentPage` is 'Resume', it returns the `Resume` component.
   // For any other value of `currentPage`, it returns the `Contact` component.
   const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <Home />;
-    }
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Blog') {
-      return <Blog />;
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
     }
-    return <Contact />;
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    return <Resume />;
   };
 
   // This function is responsible for updating the `currentPage` state based on the selected page received as an argument.
