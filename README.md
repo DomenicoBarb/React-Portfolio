@@ -25,7 +25,8 @@ After installing Node.js and running ```npm i``` in the terminal at the root dir
 You can then navigate to https://domenicobarb.github.io/React-Portfolio/ in your browser to use the application.
 
 ## Screenshot:
-![Screenshot of Application](./src/assets/screenshot/screenshot.png)
+![Screenshot of Application on Desktop](./src/assets/screenshot/screenshot.png)
+![Screenshot of Application on Mobile](./src/assets/screenshot/screenshot-mobile.jpg)
 
 ## License
 This project is licensed under the MIT license. Click [here](https://opensource.org/licenses/MIT) for more information.<br>
