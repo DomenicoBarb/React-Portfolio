@@ -113,6 +113,7 @@ a:hover {
 	&:before,
 	&:after {
 		animation: orbit 5s linear infinite;
+		-webkit-animation: orbit 5s linear infinite; /* For Safari */
 		border-radius: 50%;
 		box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
 		content: "";
@@ -132,6 +133,7 @@ a:hover {
 
 	&:after {
 		animation-delay: -2.5s;
+		-webkit-animation-delay: -2.5s; /* For Safari */
 		background: #e0e793;
 		background: -moz-radial-gradient(bottom right, #e0e793, #6dd0f1);
 		background: radial-gradient(to top left, #e0e793, #6dd0f1);
