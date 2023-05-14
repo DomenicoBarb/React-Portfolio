@@ -25,7 +25,9 @@ After installing Node.js and running ```npm i``` in the terminal at the root dir
 You can then navigate to https://domenicobarb.github.io/React-Portfolio/ in your browser to use the application.
 
 ## Screenshot:
+Desktop:
 ![Screenshot of Application on Desktop](./src/assets/screenshot/screenshot.png)
+Mobile:
 <p align="center">
   <img width="460" src="./src/assets/screenshot/screenshot-mobile.jpg">
 </p>
