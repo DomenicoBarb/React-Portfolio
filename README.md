@@ -18,7 +18,7 @@ This portfolio is a single page application built up using React, React icons, H
 This application uses Node.js and various npm packages so you will need to install node and then run ```npm i``` in the terminal at the root of the directory to install the dependencies.
 
 ## Usage
-After installing Node.js and running ```npm i``` in the terminal at the root directory, you will now run ```npm run deploy``` in the terminal at the root of the directory to launch the application. This will create a build folder and deploy the application to GitHub Pages. You can then navigate to https://domenicobarb.github.io/React-Portfolio/ in your browser to use the application.
+After installing Node.js and running ```npm i``` in the terminal at the root directory, you will now run ```npm run deploy``` in the terminal at the root of the directory to deploy the application. This will create a build folder and deploy the application to GitHub Pages. You can then navigate to https://domenicobarb.github.io/React-Portfolio/ in your browser to use the application.
 
 ## Screenshot:
 ![Screenshot of Application](./src/assets/screenshot/screenshot.png)
