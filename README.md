@@ -26,7 +26,9 @@ You can then navigate to https://domenicobarb.github.io/React-Portfolio/ in your
 
 ## Screenshot:
 ![Screenshot of Application on Desktop](./src/assets/screenshot/screenshot.png)
-![Screenshot of Application on Mobile](./src/assets/screenshot/screenshot-mobile.jpg)
+<p align="center">
+  <img width="460" src="./src/assets/screenshot/screenshot-mobile.jpg">
+</p>
 
 ## License
 This project is licensed under the MIT license. Click [here](https://opensource.org/licenses/MIT) for more information.<br>
