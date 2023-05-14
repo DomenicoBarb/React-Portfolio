@@ -109,40 +109,60 @@ a:hover {
 	justify-content: center;
 	/* Aligns items on the line in the center of the line. */
 	align-items: center;
+}
 
-	&:before,
-	&:after {
-		animation: orbit 5s linear infinite;
-		-webkit-animation: orbit 5s linear infinite; /* For Safari */
-		border-radius: 50%;
-		box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-		content: "";
-		height: 75px;
-		position: absolute;
-		top: 50px;
-		width: 75px;
+.holder:before,
+.holder:after {
+	content: "";
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	animation: orbit 5s linear infinite;
+	-webkit-animation: orbit 5s linear infinite;
+}
+
+.holder:before {
+	top: 0;
+	left: 0;
+	background: -webkit-linear-gradient(left top, #ffe897, #f98a05);
+	background: linear-gradient(to bottom right, #ffe897, #f98a05);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.holder:after {
+	bottom: 0;
+	right: 0;
+	animation-delay: -2.5s;
+	-webkit-animation-delay: -2.5s;
+	background: -webkit-linear-gradient(right bottom, #e0e793, #6dd0f1);
+	background: linear-gradient(to top left, #e0e793, #6dd0f1);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	z-index: -1;
+}
+
+@-webkit-keyframes orbit {
+	from {
+		-webkit-transform: rotate(0deg) translateX(100px) rotate(0deg);
+		transform: rotate(0deg) translateX(100px) rotate(0deg);
 	}
 
-	&:before {
-		background: #ffe897;
-		background: -moz-radial-gradient(top right, #ffe897, #f98a05);
-		background: radial-gradient(to bottom left, #ffe897, #f98a05);
-		background: -webkit-radial-gradient(top right, #ffe897, #f98a05);
-		z-index: -1;
-	}
-
-	&:after {
-		animation-delay: -2.5s;
-		-webkit-animation-delay: -2.5s; /* For Safari */
-		background: #e0e793;
-		background: -moz-radial-gradient(bottom right, #e0e793, #6dd0f1);
-		background: radial-gradient(to top left, #e0e793, #6dd0f1);
-		background: -webkit-radial-gradient(bottom right, #e0e793, #6dd0f1);
-		right: 0;
-		top: 0;
-		z-index: -1;
+	to {
+		-webkit-transform: rotate(360deg) translateX(100px) rotate(-360deg);
+		transform: rotate(360deg) translateX(100px) rotate(-360deg);
 	}
 }
+
+@keyframes orbit {
+	from {
+		transform: rotate(0deg) translateX(100px) rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg) translateX(100px) rotate(-360deg);
+	}
+}
+
 
 .holder-container {
 	position: absolute;
@@ -183,16 +203,6 @@ a:hover {
 	height: 100%;
 	position: absolute;
 	width: 100%;
-}
-
-@keyframes orbit {
-	from {
-		transform: rotate(0deg) translateX(100px) rotate(0deg);
-	}
-
-	to {
-		transform: rotate(360deg) translateX(100px) rotate(-360deg);
-	}
 }
 
 header {
