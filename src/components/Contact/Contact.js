@@ -48,7 +48,7 @@ function Contact() {
 	return (
 		<section>
 			<div className="center">
-				<h2 className="page-header">Contact Me:</h2>
+				<h2 title="This form doesn't actually work" className="page-header">Contact Me:</h2>
 			</div>
 			<div>
 				<form id="contact-form">
