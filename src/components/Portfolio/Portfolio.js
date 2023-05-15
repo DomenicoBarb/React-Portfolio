@@ -72,7 +72,7 @@ function Portfolio() {
 	];
 
 	return (
-		<section>
+		<section className="testAnimation2">
 			<div className="center">
 				<h1 className="page-header">My Portfolio:</h1>
 			</div>

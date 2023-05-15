@@ -46,7 +46,7 @@ function Contact() {
 	}
 
 	return (
-		<section>
+		<section className="testAnimation">
 			<div className="center">
 				<h2 title="This form doesn't actually work" className="page-header">Contact Me:</h2>
 			</div>

@@ -273,7 +273,6 @@ a:hover {
 	}
 }
 
-
 .portraitBG:before {
 	background-color: rgba(255, 255, 255, 0.3);
 	backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
@@ -323,6 +322,79 @@ header a {
 	z-index: 2;
 }
 
+.testAnimation {
+	-webkit-animation: swing-in-bottom-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+	animation: swing-in-bottom-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+}
+
+@-webkit-keyframes swing-in-bottom-fwd {
+	0% {
+		-webkit-transform: rotateX(100deg);
+		transform: rotateX(100deg);
+		-webkit-transform-origin: bottom;
+		transform-origin: bottom;
+		opacity: 0;
+	}
+
+	100% {
+		-webkit-transform: rotateX(0);
+		transform: rotateX(0);
+		-webkit-transform-origin: bottom;
+		transform-origin: bottom;
+		opacity: 1;
+	}
+}
+
+@keyframes swing-in-bottom-fwd {
+	0% {
+		-webkit-transform: rotateX(100deg);
+		transform: rotateX(100deg);
+		-webkit-transform-origin: bottom;
+		transform-origin: bottom;
+		opacity: 0;
+	}
+
+	100% {
+		-webkit-transform: rotateX(0);
+		transform: rotateX(0);
+		-webkit-transform-origin: bottom;
+		transform-origin: bottom;
+		opacity: 1;
+	}
+}
+
+.testAnimation2 {
+	-webkit-animation: fade-in-bottom 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in-bottom 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes fade-in-bottom {
+	0% {
+		-webkit-transform: translateY(50px);
+		transform: translateY(50px);
+		opacity: 0;
+	}
+
+	100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes fade-in-bottom {
+	0% {
+		-webkit-transform: translateY(50px);
+		transform: translateY(50px);
+		opacity: 0;
+	}
+
+	100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
 
 .card {
 	width: 25rem;
