@@ -63,7 +63,7 @@ function Contact() {
 						/>
 					</div>
 					<div>
-						<label htmlFor="email">Email address:</label>
+						<label title="📧" htmlFor="email">Email address:</label>
 						<br></br>
 						<input
 							type="email"
@@ -73,7 +73,7 @@ function Contact() {
 						/>
 					</div>
 					<div>
-						<label htmlFor="Message">Message:</label>
+						<label title="Be nice" htmlFor="Message">Message:</label>
 						<br></br>
 						<textarea
 							name="Message"

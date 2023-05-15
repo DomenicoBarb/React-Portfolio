@@ -9,7 +9,7 @@ export default function About() {
       <div className="holder-container">
         <div className="holder">
           <div className="portraitBG"></div>
-          <img src={portraitImage} alt="Portrait" className="portrait-image" />
+          <img src={portraitImage} alt="Portrait" title="Not a picture of me but I do have a moustache" className="portrait-image" />
         </div>
       </div>
 

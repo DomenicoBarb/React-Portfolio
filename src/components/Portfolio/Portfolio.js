@@ -76,6 +76,7 @@ function Portfolio() {
 			<div className="center">
 				<h1 className="page-header">My Portfolio:</h1>
 			</div>
+		
 			<div className="portfolio-div">
 				<ul className="flex-row mobile-row">
 					<li className="padding">

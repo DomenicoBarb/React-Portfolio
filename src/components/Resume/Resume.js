@@ -7,12 +7,6 @@ function Resume() {
 			<div className="center">
 				<h1 className="page-header">My Resume:</h1>
 			</div>
-			<div className="bottom-spacing">
-				<a href={require("../../assets/resume/DomenicoBarberi2023.pdf")} download>
-				<h4 className='resume-h4'><BsCloudDownload className="BsCloudDownload" /> Download Resume <BsCloudDownload className="BsCloudDownload" />
-				</h4>
-				</a>
-			</div>
 			<div className="resume-formatting">
 				<h5>Front-End Experience:</h5>
 				<ol>
@@ -52,6 +46,12 @@ function Resume() {
 					<li>MongoDB</li>
 					<li>Mongoose</li>
 				</ol>
+			</div>
+			<div className="bottom-spacing">
+				<a href={require("../../assets/resume/DomenicoBarberi2023.pdf")} download>
+					<h4 className='resume-h4'><BsCloudDownload className="BsCloudDownload" /> Download Resume <BsCloudDownload className="BsCloudDownload" />
+					</h4>
+				</a>
 			</div>
 		</section>
 	);
