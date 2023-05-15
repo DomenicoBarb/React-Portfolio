@@ -905,3 +905,27 @@ textarea {
 		padding-top: 10px;
 	}
 }
+
+@media (max-width: 400px) {
+	@-webkit-keyframes orbit {
+		from {
+			-webkit-transform: rotate(0deg) translateX(160px) rotate(0deg);
+			transform: rotate(0deg) translateX(160px) rotate(0deg);
+		}
+	
+		to {
+			-webkit-transform: rotate(360deg) translateX(160px) rotate(-360deg);
+			transform: rotate(360deg) translateX(160px) rotate(-360deg);
+		}
+	}
+	
+	@keyframes orbit {
+		from {
+			transform: rotate(0deg) translateX(160px) rotate(0deg);
+		}
+	
+		to {
+			transform: rotate(360deg) translateX(160px) rotate(-360deg);
+		}
+	}
+}
