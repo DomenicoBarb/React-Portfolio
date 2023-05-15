@@ -20,14 +20,14 @@ You can then navigate to https://domenicobarb.github.io/React-Portfolio/ in your
 ## Screenshot:
 Desktop:
 
-![Screenshot of Application on Desktop](./src/assets/screenshot/desktop-loop2.gif)
+![Screenshot of Application on Desktop](./src/assets/screenshot/desktoploop.gif)
 
 <p align="center">
   <b>Mobile:</b>
 </p>
 
 <p align="center">
-  <img width="460" src="./src/assets/screenshot/mobile-loop2.gif">
+  <img width="460" src="./src/assets/screenshot/mobileloop.gif">
 </p>
 
 ## License
