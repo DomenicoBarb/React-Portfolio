@@ -316,18 +316,25 @@ header a {
 
 .card-title {
 	font-size: 1.5rem;
-	color: var(--quaternary);
+	color: var(--textC);
+	-webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 .card-subtitle {
 	font-size: 1rem;
-	color: var(--accent);
+	color: var(--textC);
+	text-decoration: underline;
+	-webkit-animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 .card-text {
 	font-size: 0.85rem;
 	height: 6em;
 	color: var(--textC);
+	-webkit-animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 .card-techs {

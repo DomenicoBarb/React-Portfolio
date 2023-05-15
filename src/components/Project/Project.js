@@ -53,7 +53,7 @@ function Project(props) {
 				<Card.Body>
 					<Card.Title className="card-title">{name}</Card.Title>
 					<Card.Text className="card-text">{description}</Card.Text>
-					<Card.Subtitle className="card-subtitle">Technology Used</Card.Subtitle>
+					<Card.Subtitle className="card-subtitle">Technology Used:</Card.Subtitle>
 					<Card.Text className="card-techs">{getTechs(techs)}</Card.Text>
 				</Card.Body>
 			</div>
