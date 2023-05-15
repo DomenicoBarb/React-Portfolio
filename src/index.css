@@ -35,9 +35,9 @@ body {
 	line-height: 1.5;
 	font-size: 18px;
 	letter-spacing: .05em;
-	background: -moz-radial-gradient(bottom right, #198854, #107f96);
-	background: radial-gradient(to top left, #198854, #107f96);
-	background: -webkit-radial-gradient(bottom right, #198854, #107f96);
+	background: -moz-radial-gradient(bottom right, #0a854c, #0087a1);
+	background: radial-gradient(to top left, #0a854c, #0087a1);
+	background: -webkit-radial-gradient(bottom right, #0a854c, #0087a1);
 	color: var(--primary);
 	font-family: Helvetica, sans-serif;
 }
