@@ -15,7 +15,7 @@ export default function About() {
 
       <div className="bio-formatting">
         <p className="bio-text-formatting">
-          Hello there! My name is Domenico Antonio Barberi, though you can also call me Nico!
+          Hello there! My name is Domenico Antonio Barberi but you can also call me Nico!
           I am currently honing my skills as a Full Stack Web Developmer at the University of Toronto's Coding Bootcamp!
         </p>
         <br></br>
