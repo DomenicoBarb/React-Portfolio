@@ -164,68 +164,6 @@ a:hover {
 	}
 }
 
-/* second animation */
-.holder2 {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	display: flex;
-	justify-content: center;
-	/* Aligns items on the line in the center of the line. */
-	align-items: center;
-}
-
-.holder2:before,
-.holder2:after {
-	content: "";
-	width: 75px;
-	height: 75px;
-	border-radius: 50%;
-	animation: orbit2 5s linear infinite;
-	-webkit-animation: orbit 5s linear infinite;
-}
-
-.holder2:before {
-	top: 0;
-	left: 0;
-	background: -webkit-linear-gradient(left top, #ffe897, #f98a05);
-	background: linear-gradient(to bottom right, #ffe897, #f98a05);
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-}
-
-.holder2:after {
-	bottom: 0;
-	right: 0;
-	animation-delay: -2.5s;
-	-webkit-animation-delay: -2.5s;
-	background: -webkit-linear-gradient(right bottom, #e0e793, #6dd0f1);
-	background: linear-gradient(to top left, #e0e793, #6dd0f1);
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-	z-index: -1;
-}
-
-@-webkit-keyframes orbit2 {
-	from {
-		-webkit-transform: rotate(0deg) translateX(20px) rotate(0deg);
-		transform: rotate(0deg) translateX(20px) rotate(0deg);
-	}
-
-	to {
-		-webkit-transform: rotate(360deg) translateX(20px) rotate(-360deg);
-		transform: rotate(360deg) translateX(20px) rotate(-360deg);
-	}
-}
-
-@keyframes orbit2 {
-	from {
-		transform: rotate(0deg) translateX(20px) rotate(0deg);
-	}
-
-	to {
-		transform: rotate(360deg) translateX(20px) rotate(-360deg);
-	}
-}
-
 .holder-container {
 	position: absolute;
 	top: 360px;
@@ -245,7 +183,46 @@ a:hover {
 	border-radius: 8%;
 	box-shadow: #000000 0px 0px 5px;
 	opacity: 1;
+	-webkit-animation: scale-in-tr 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: scale-in-tr 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
+@-webkit-keyframes scale-in-tr {
+	0% {
+		-webkit-transform: scale(0);
+		transform: scale(0);
+		-webkit-transform-origin: 100% 0%;
+		transform-origin: 100% 0%;
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transform-origin: 100% 0%;
+		transform-origin: 100% 0%;
+		opacity: 1;
+	}
+}
+
+@keyframes scale-in-tr {
+	0% {
+		-webkit-transform: scale(0);
+		transform: scale(0);
+		-webkit-transform-origin: 100% 0%;
+		transform-origin: 100% 0%;
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transform-origin: 100% 0%;
+		transform-origin: 100% 0%;
+		opacity: 1;
+	}
+}
+
 
 .portraitBG {
 	border: 1px solid #fff;
@@ -256,7 +233,46 @@ a:hover {
 	overflow: hidden;
 	position: relative;
 	width: 250px;
+	-webkit-animation: scale-in-tl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: scale-in-tl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
+@-webkit-keyframes scale-in-tl {
+	0% {
+		-webkit-transform: scale(0);
+		transform: scale(0);
+		-webkit-transform-origin: 0% 0%;
+		transform-origin: 0% 0%;
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transform-origin: 0% 0%;
+		transform-origin: 0% 0%;
+		opacity: 1;
+	}
+}
+
+@keyframes scale-in-tl {
+	0% {
+		-webkit-transform: scale(0);
+		transform: scale(0);
+		-webkit-transform-origin: 0% 0%;
+		transform-origin: 0% 0%;
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transform-origin: 0% 0%;
+		transform-origin: 0% 0%;
+		opacity: 1;
+	}
+}
+
 
 .portraitBG:before {
 	background-color: rgba(255, 255, 255, 0.3);
@@ -389,33 +405,38 @@ header a {
 
 @-webkit-keyframes pulsate-bck {
 	0% {
-	  -webkit-transform: scale(1);
-			  transform: scale(1);
+		-webkit-transform: scale(1);
+		transform: scale(1);
 	}
+
 	50% {
-	  -webkit-transform: scale(0.9);
-			  transform: scale(0.9);
+		-webkit-transform: scale(0.9);
+		transform: scale(0.9);
 	}
+
 	100% {
-	  -webkit-transform: scale(1);
-			  transform: scale(1);
+		-webkit-transform: scale(1);
+		transform: scale(1);
 	}
-  }
-  @keyframes pulsate-bck {
+}
+
+@keyframes pulsate-bck {
 	0% {
-	  -webkit-transform: scale(1);
-			  transform: scale(1);
+		-webkit-transform: scale(1);
+		transform: scale(1);
 	}
+
 	50% {
-	  -webkit-transform: scale(0.9);
-			  transform: scale(0.9);
+		-webkit-transform: scale(0.9);
+		transform: scale(0.9);
 	}
+
 	100% {
-	  -webkit-transform: scale(1);
-			  transform: scale(1);
+		-webkit-transform: scale(1);
+		transform: scale(1);
 	}
-  }
-  
+}
+
 
 .card-link {
 	display: block;
@@ -517,11 +538,47 @@ ul li {
 .navbar {
 	position: relative;
 	z-index: 2;
+	-webkit-animation: scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
+@-webkit-keyframes scale-in-top {
+	0% {
+	  -webkit-transform: scale(0);
+			  transform: scale(0);
+	  -webkit-transform-origin: 50% 0%;
+			  transform-origin: 50% 0%;
+	  opacity: 1;
+	}
+	100% {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
+	  -webkit-transform-origin: 50% 0%;
+			  transform-origin: 50% 0%;
+	  opacity: 1;
+	}
+  }
+  @keyframes scale-in-top {
+	0% {
+	  -webkit-transform: scale(0);
+			  transform: scale(0);
+	  -webkit-transform-origin: 50% 0%;
+			  transform-origin: 50% 0%;
+	  opacity: 1;
+	}
+	100% {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
+	  -webkit-transform-origin: 50% 0%;
+			  transform-origin: 50% 0%;
+	  opacity: 1;
+	}
+  }
+  
 
 .navbar h2 {
 	color: #ffffff;
-	
+
 }
 
 .navbar h2:hover {
