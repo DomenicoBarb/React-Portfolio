@@ -143,23 +143,23 @@ a:hover {
 
 @-webkit-keyframes orbit {
 	from {
-		-webkit-transform: rotate(0deg) translateX(100px) rotate(0deg);
-		transform: rotate(0deg) translateX(100px) rotate(0deg);
+		-webkit-transform: rotate(0deg) translateX(130px) rotate(0deg);
+		transform: rotate(0deg) translateX(130px) rotate(0deg);
 	}
 
 	to {
-		-webkit-transform: rotate(360deg) translateX(100px) rotate(-360deg);
-		transform: rotate(360deg) translateX(100px) rotate(-360deg);
+		-webkit-transform: rotate(360deg) translateX(130px) rotate(-360deg);
+		transform: rotate(360deg) translateX(130px) rotate(-360deg);
 	}
 }
 
 @keyframes orbit {
 	from {
-		transform: rotate(0deg) translateX(100px) rotate(0deg);
+		transform: rotate(0deg) translateX(130px) rotate(0deg);
 	}
 
 	to {
-		transform: rotate(360deg) translateX(100px) rotate(-360deg);
+		transform: rotate(360deg) translateX(130px) rotate(-360deg);
 	}
 }
 
@@ -206,11 +206,27 @@ a:hover {
 }
 
 header {
-	background: var(--secondary);
+	border: 1px solid #fff;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
 	display: flex;
 	justify-content: space-between;
 	padding: 2rem;
 	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+
+header:before {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.3);
+	backdrop-filter: blur(3px) saturate(100%) contrast(45%) brightness(130%);
+	content: '';
+	top: 0rem;
+	bottom: 0rem;
+	left: 0rem;
+	right: 0rem;
+	z-index: -1;
 }
 
 header a {
@@ -400,11 +416,7 @@ ul li {
 }
 
 .navbar h2 {
-	background: -webkit-linear-gradient(top right, #3b8fb0, #55ba8b);
-	background: linear-gradient(to bottom left, #3b8fb0, #55ba8b);
-	-webkit-background-clip: text;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: #ffffff;
 }
 
 
@@ -526,11 +538,8 @@ textarea {
 }
 
 .navActive {
-	background: -webkit-linear-gradient(top right, #d2a914, #f98a05);
-	background: linear-gradient(to bottom left, #d2a914, #f98a05);
-	-webkit-background-clip: text;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: #000000;
+	text-decoration: underline;
 }
 
 .footer {
@@ -751,6 +760,9 @@ textarea {
 		height: 6rem;
 	}
 
+	body {
+		line-height: 1;
+	}
 }
 
 @media screen and (max-width: 325px) {
