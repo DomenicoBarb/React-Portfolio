@@ -1317,13 +1317,7 @@ textarea {
 	padding: 25px;
 }
 
-/* @media screen and (max-width: 1610px) {
-	.bio-text-formatting {
-		width: 45%;
-	}
-} */
-
-@media screen and (max-width: 1395px) {
+@media screen and (max-width: 995px) {
 	header div {
 		position: relative;
 		width: 100%;
@@ -1481,15 +1475,15 @@ textarea {
 	}
 }
 
-@media (max-width: 1448px) {
+@media (max-width: 1470px) {
 	.bio-text-formatting {
 		width: 60%;
 	}
 }
 
-@media (max-width: 1292px) {
+@media (max-width: 1285px) {
 	.bio-text-formatting {
-		width: 55%;
+		width: 95%;
 	}
 }
 
