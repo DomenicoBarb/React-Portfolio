@@ -1114,8 +1114,8 @@ textarea {
 	line-height: 1.25;
 	padding-bottom: 2rem;
 	color: var(--primary);
-	-webkit-animation: focus-in-expand-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: focus-in-expand-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: focus-in-expand-fwd .4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: focus-in-expand-fwd .4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .bottom-spacing {
