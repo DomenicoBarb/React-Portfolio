@@ -225,7 +225,7 @@ a:hover {
 
 
 .portraitBG {
-	border: 1px solid #fff;
+	
 	border-radius: 15px;
 	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
 	font-size: 2rem;
@@ -276,10 +276,10 @@ a:hover {
 	height: 100%;
 	position: absolute;
 	width: 100%;
+	border: 1px solid #fff;
 }
 
 header {
-	border: 1px solid #fff;
 	border-bottom-right-radius: 15px;
 	border-bottom-left-radius: 15px;
 	display: flex;
@@ -300,6 +300,7 @@ header:before {
 	left: 0rem;
 	right: 0rem;
 	z-index: -1;
+	border: 1px solid #fff;
 }
 
 header a {
