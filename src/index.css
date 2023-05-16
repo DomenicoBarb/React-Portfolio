@@ -225,7 +225,7 @@ a:hover {
 
 
 .portraitBG {
-	
+
 	border-radius: 15px;
 	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
 	font-size: 2rem;
@@ -1203,44 +1203,29 @@ textarea {
 
 .bottom-spacing h4:hover {
 	cursor: pointer;
-	-webkit-animation: pulsate-fwd 0.5s ease-in-out infinite both;
-	animation: pulsate-fwd 0.5s ease-in-out infinite both;
+	-webkit-animation: text-shadow-drop-center 0.6s both;
+	animation: text-shadow-drop-center 0.6s both;
 }
 
-@-webkit-keyframes pulsate-fwd {
+@-webkit-keyframes text-shadow-drop-center {
 	0% {
-		-webkit-transform: scale(1);
-		transform: scale(1);
-	}
-
-	50% {
-		-webkit-transform: scale(1.1);
-		transform: scale(1.1);
+		text-shadow: 0 0 0 rgba(0, 0, 0, 0);
 	}
 
 	100% {
-		-webkit-transform: scale(1);
-		transform: scale(1);
+		text-shadow: 0 0 18px rgba(0, 0, 0, 0.75);
 	}
 }
 
-@keyframes pulsate-fwd {
+@keyframes text-shadow-drop-center {
 	0% {
-		-webkit-transform: scale(1);
-		transform: scale(1);
-	}
-
-	50% {
-		-webkit-transform: scale(1.1);
-		transform: scale(1.1);
+		text-shadow: 0 0 0 rgba(0, 0, 0, 0);
 	}
 
 	100% {
-		-webkit-transform: scale(1);
-		transform: scale(1);
+		text-shadow: 0 0 18px rgba(0, 0, 0, 0.75);
 	}
 }
-
 
 .bio-formatting {
 	text-align: center;
