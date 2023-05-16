@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.a1d746b9.css",
-    "main.js": "/React-Portfolio/static/js/main.a4d44850.js",
+    "main.js": "/React-Portfolio/static/js/main.386c97a1.js",
     "static/media/shiftwiz.gif": "/React-Portfolio/static/media/shiftwiz.1b7bbde0119382e3b46e.gif",
     "static/media/emp-demo.gif": "/React-Portfolio/static/media/emp-demo.a07887bfc84e348c66ba.gif",
     "static/media/poke.png": "/React-Portfolio/static/media/poke.771210fb0b94bee54902.png",
     "static/media/portraitEX.png": "/React-Portfolio/static/media/portraitEX.493e5efdb34137f77123.png",
-    "static/media/DomenicoBarberi2023.pdf": "/React-Portfolio/static/media/DomenicoBarberi2023.60815411ea620b2eef7c.pdf",
     "static/media/weather.png": "/React-Portfolio/static/media/weather.dbc66e46eb932438b302.png",
     "static/media/pass.png": "/React-Portfolio/static/media/pass.3066c0c127d2b4fe48eb.png",
     "static/media/work.png": "/React-Portfolio/static/media/work.e9ea13c848fd82746e6b.png",
+    "static/media/DomenicoBarberiResume.pdf": "/React-Portfolio/static/media/DomenicoBarberiResume.7cf74b1754cbc48efd8b.pdf",
     "static/media/JATE.png": "/React-Portfolio/static/media/JATE.becc36ef2cbe23926ba4.png",
     "index.html": "/React-Portfolio/index.html",
     "main.a1d746b9.css.map": "/React-Portfolio/static/css/main.a1d746b9.css.map",
-    "main.a4d44850.js.map": "/React-Portfolio/static/js/main.a4d44850.js.map"
+    "main.386c97a1.js.map": "/React-Portfolio/static/js/main.386c97a1.js.map"
   },
   "entrypoints": [
     "static/css/main.a1d746b9.css",
-    "static/js/main.a4d44850.js"
+    "static/js/main.386c97a1.js"
   ]
 }
