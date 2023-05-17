@@ -77,7 +77,7 @@ function Portfolio() {
 				<h1 className="page-header">My Portfolio:</h1>
 			</div>
 			<div className="portfolio-div">
-				<ul className="flex-row mobile-row">
+				<ul className="flex-row mobile-row2">
 					<li className="padding">
 						<Project projects={projects[0]}></Project>
 					</li>
@@ -88,7 +88,7 @@ function Portfolio() {
 						<Project projects={projects[2]}></Project>
 					</li>
 				</ul>
-				<ul className="flex-row mobile-row">
+				<ul className="flex-row mobile-row2">
 					<li className="padding">
 						<Project projects={projects[3]}></Project>
 					</li>
@@ -99,7 +99,7 @@ function Portfolio() {
 						<Project projects={projects[5]}></Project>
 					</li>
 				</ul>
-				<ul className="flex-row mobile-row">
+				<ul className="flex-row mobile-row2">
 					<li className="padding">
 						<Project projects={projects[6]}></Project>
 					</li>

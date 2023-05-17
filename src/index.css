@@ -1378,6 +1378,57 @@ textarea {
 	}
 }
 
+@media screen and (max-width: 1525px) {
+	.mobile-row2 {
+		display: block;
+		justify-content: center;
+		padding: 0;
+		-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	}
+
+	ol {
+		font-size: 0.75rem;
+	}
+
+	.flex-row.mobile-row2 {
+		justify-content: center;
+	}
+
+	.card {
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+}
+
+@-webkit-keyframes slide-in-top {
+	0% {
+	  -webkit-transform: translateY(-1000px);
+			  transform: translateY(-1000px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateY(0);
+			  transform: translateY(0);
+	  opacity: 1;
+	}
+  }
+  @keyframes slide-in-top {
+	0% {
+	  -webkit-transform: translateY(-1000px);
+			  transform: translateY(-1000px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateY(0);
+			  transform: translateY(0);
+	  opacity: 1;
+	}
+  }
+  
+  
+
 @media screen and (max-width: 455px) {
 	.card-text {
 		font-size: 0.80rem;
