@@ -40,6 +40,7 @@ body {
 	background: -webkit-radial-gradient(bottom right, #0a854c, #0087a1);
 	color: var(--primary);
 	font-family: Helvetica, sans-serif;
+	min-height: 100vh;
 }
 
 h1,
@@ -869,6 +870,7 @@ textarea {
 	justify-content: space-evenly;
 	-webkit-animation: bounce-in-bottom 1.1s both;
 	animation: bounce-in-bottom 1.1s both;
+	padding-bottom: 5px;
 }
 
 @-webkit-keyframes bounce-in-bottom {
