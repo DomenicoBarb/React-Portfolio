@@ -1400,6 +1400,9 @@ textarea {
 		margin-bottom: 10px;
 		text-align: center;
 	}
+	.card-subtitle {
+		padding-bottom: 5px;
+	}
 }
 
 @-webkit-keyframes slide-in-top {
