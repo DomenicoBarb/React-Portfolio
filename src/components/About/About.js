@@ -26,7 +26,7 @@ export default function About() {
         </p>
         <br></br>
         <p className="bio-text-formatting">
-          I am a huge believer in constant learning, growth, and positivity. I'm always ready to step out of my comfort zone fto explore new challenges.
+          I am a huge believer in constant learning, growth, and positivity. I'm always ready to step out of my comfort zone to explore new challenges.
           But life isn't all about code! When I'm not behind a computer screen, I cherish spending time with my family. As part of an Italian family, this bond has been an essential part of my life since day one.
         </p>
         <br></br>
