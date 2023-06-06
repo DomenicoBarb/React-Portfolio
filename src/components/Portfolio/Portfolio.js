@@ -4,6 +4,24 @@ import Project from '../Project/Project';
 function Portfolio() {
 	const projects = [
 		{
+			name: 'Recall Rumble',
+			description:
+				'This app is an MERN SPA game! Match the cards in as few clicks as possible. The game is scored and the top 10 scores are saved to the leaderboard.',
+			image: 'RR.gif',
+			technologies: [
+				'HTML',
+				'CSS/Ant Design',
+				'JavaScript',
+				'MongoDB',
+				'Express.js',
+				'React',
+				'Node.js',
+				'Heroku',
+			],
+			github: 'https://github.com/Group1Project3/Recall-Rumble',
+			deployed: 'https://recallrumble.herokuapp.com/',
+		},
+		{
 			name: 'Shift-Wiz',
 			description:
 				'This is an employee scheduling application that allows employees to view their schedule, submit PTO, modify their availability, and call in sick all in one place!',
@@ -102,6 +120,9 @@ function Portfolio() {
 				<ul className="flex-row mobile-row2">
 					<li className="padding">
 						<Project projects={projects[6]}></Project>
+					</li>
+					<li className="padding">
+						<Project projects={projects[7]}></Project>
 					</li>
 				</ul>
 			</div>
