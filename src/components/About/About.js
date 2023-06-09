@@ -31,7 +31,7 @@ export default function About() {
         </p>
         <br></br>
         <p className="bio-text-formatting">
-          Apart from that, my free time is filled with a variety of interests. I enjoy building custom mechanical keyboards (I've got multiple Tofu builds and a recent KBD67 with Durock/JWK T1 - Tactile Switches under my belt).
+          Apart from that, my free time is filled with a variety of interests. I enjoy building custom mechanical keyboards (I have multiple Tofu builds and a recent KBD67 with Durock/JWK T1 - Tactile Switches under my belt).
           Photography, especially nature and automotive, is another passion of mine; you'll often find me exploring with my Fujifilm X-T4. And let's not forget video games, an interest that may even become another career path for me!
           Whether you're interested in collaborating on a project or just want to chat, feel free to get in touch!
         </p>
