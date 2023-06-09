@@ -31,6 +31,16 @@ function Resume() {
 					<li>PWA (Progressive Web Applications)</li>
 				</ol>
 				<br></br>
+				<h5>Database Technologies Experience:</h5>
+				<ol>
+					<li>MySQL</li>
+					<li>Sequelize</li>
+					<li>NoSQL</li>
+					<li>MongoDB</li>
+					<li>MongoDB Atlas Database</li>
+					<li>Mongoose</li>
+				</ol>
+				<br></br>
 				<h5>Dev Tool Experience:</h5>
 				<ol>
 					<li>VS Code</li>
@@ -42,14 +52,10 @@ function Resume() {
 					<li>Vim (Text editor)</li>
 				</ol>
 				<br></br>
-				<h5>Database Technologies Experience:</h5>
+				<h5>Deployment/Hosting Platforms Experience:</h5>
 				<ol>
-					<li>MySQL</li>
-					<li>Sequelize</li>
-					<li>NoSQL</li>
-					<li>MongoDB</li>
-					<li>MongoDB Atlas Database</li>
-					<li>Mongoose</li>
+					<li>Heroku</li>
+					<li>GitHub Pages</li>
 				</ol>
 			</div>
 			<div className="bottom-spacing">
