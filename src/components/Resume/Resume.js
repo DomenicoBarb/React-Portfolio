@@ -16,26 +16,30 @@ function Resume() {
 					<li>jQuery</li>
 					<li>Bootstrap</li>
 					<li>React</li>
-					<li>version control/Git</li>
-					<li>responsive design</li>
+					<li>Ant Design 5</li>
+					<li>Responsive/Mobile First Design</li>
+					<li>Version Control/Git</li>
 				</ol>
 				<br></br>
 				<h5>Back-End Experience:</h5>
 				<ol>
-					<li>APIs</li>
 					<li>NodeJS</li>
 					<li>Express</li>
-					<li>Model View Controller (MVC)</li>
-					<li>REST</li>
-					<li>Progressive Web Applications (PWA)</li>
+					<li>APIs (Moment.js, PokeAPI, OpenWeather)</li>
+					<li>MVC (Model View Controller)</li>
+					<li>REST (RESTful API Design)</li>
+					<li>PWA (Progressive Web Applications)</li>
 				</ol>
 				<br></br>
 				<h5>Dev Tool Experience:</h5>
 				<ol>
+					<li>VS Code</li>
 					<li>Git</li>
 					<li>npm</li>
-					<li>Jest</li>
 					<li>Webpack</li>
+					<li>Jest</li>
+					<li>Nano (Text editor)</li>
+					<li>Vim (Text editor)</li>
 				</ol>
 				<br></br>
 				<h5>Database Technologies Experience:</h5>
@@ -44,6 +48,7 @@ function Resume() {
 					<li>Sequelize</li>
 					<li>NoSQL</li>
 					<li>MongoDB</li>
+					<li>MongoDB Atlas Database</li>
 					<li>Mongoose</li>
 				</ol>
 			</div>
