@@ -12,6 +12,12 @@ function Portfolio() {
 				'HTML',
 				'CSS/Ant Design',
 				'JavaScript',
+				'Bcrypt',
+				'Json Web Tokens',
+				'apollo-client/server',
+				'graphql',
+				'dotenv',
+				'Stripe',
 				'MongoDB',
 				'Express.js',
 				'React',
@@ -97,9 +103,9 @@ function Portfolio() {
 		},
 		{
 			name: 'Google Books Search',
-			description: 'This is an application that allows you to search for books using the Google Books API. You can save books to your library and delete them as well.',
+			description: 'This is an MERN stack application that allows you to search for books using the Google Books API. You can make a secure account and save books to your library and delete them as well.',
 			image: 'google.png',
-			technologies: ['HTML/CSS', 'JavaScript', "MongoDB", 'Express.js', 'React', 'Node.js'],
+			technologies: ['HTML/CSS', 'JavaScript', "bcrypt", 'Json Web Tokens', "MongoDB", 'Express.js', 'React', 'Node.js', 'Heroku'],
 			github: 'https://github.com/DomenicoBarb/Book-Search-Engine',
 			deployed: 'https://nicos-book-search-engine.herokuapp.com/',
 		},
@@ -116,10 +122,10 @@ function Portfolio() {
 						<Project projects={projects[0]}></Project>
 					</li>
 					<li className="padding">
-						<Project projects={projects[1]}></Project>
+						<Project projects={projects[9]}></Project>
 					</li>
 					<li className="padding">
-						<Project projects={projects[9]}></Project>
+						<Project projects={projects[1]}></Project>
 					</li>
 				</ul>
 				<ul className="flex-row mobile-row2">
@@ -141,7 +147,7 @@ function Portfolio() {
 						<Project projects={projects[7]}></Project>
 					</li>
 					<li className="padding">
-						<Project projects={projects[3]}></Project>
+						<Project projects={projects[4]}></Project>
 					</li>
 				</ul>
 				<ul className="flex-row mobile-row2">
