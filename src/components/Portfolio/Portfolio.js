@@ -87,6 +87,14 @@ function Portfolio() {
 			github: 'https://github.com/DomenicoBarb/PokemonBattle',
 			deployed: 'https://DomenicoBarb.github.io/PokemonBattle/',
 		},
+		{
+			name: 'Express Note Taker',
+			description: 'This is an application that can be used to write, save, and delete notes. This application uses an express backend and saves and retrieves note data from a JSON file.',
+			image: 'note.png',
+			technologies: ['HTML/CSS', 'JavaScript', 'Node.js', 'Express.js'],
+			github: 'https://github.com/DomenicoBarb/Note-Taker',
+			deployed: 'https://nicos-note-taker.herokuapp.com/',
+		},
 	];
 
 	return (
@@ -108,13 +116,13 @@ function Portfolio() {
 				</ul>
 				<ul className="flex-row mobile-row2">
 					<li className="padding">
-						<Project projects={projects[3]}></Project>
-					</li>
-					<li className="padding">
-						<Project projects={projects[4]}></Project>
+						<Project projects={projects[8]}></Project>
 					</li>
 					<li className="padding">
 						<Project projects={projects[5]}></Project>
+					</li>
+					<li className="padding">
+						<Project projects={projects[4]}></Project>
 					</li>
 				</ul>
 				<ul className="flex-row mobile-row2">
@@ -123,6 +131,9 @@ function Portfolio() {
 					</li>
 					<li className="padding">
 						<Project projects={projects[7]}></Project>
+					</li>
+					<li className="padding">
+						<Project projects={projects[3]}></Project>
 					</li>
 				</ul>
 			</div>
