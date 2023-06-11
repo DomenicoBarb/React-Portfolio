@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.c4825361.css",
-    "main.js": "/React-Portfolio/static/js/main.7e32aadb.js",
+    "main.js": "/React-Portfolio/static/js/main.2adba1d5.js",
     "static/media/shiftwiz.gif": "/React-Portfolio/static/media/shiftwiz.1b7bbde0119382e3b46e.gif",
     "static/media/emp-demo.gif": "/React-Portfolio/static/media/emp-demo.a07887bfc84e348c66ba.gif",
     "static/media/RR.gif": "/React-Portfolio/static/media/RR.4108f456239748cc5857.gif",
@@ -10,14 +10,15 @@
     "static/media/weather.png": "/React-Portfolio/static/media/weather.dbc66e46eb932438b302.png",
     "static/media/pass.png": "/React-Portfolio/static/media/pass.3066c0c127d2b4fe48eb.png",
     "static/media/work.png": "/React-Portfolio/static/media/work.e9ea13c848fd82746e6b.png",
+    "static/media/note.png": "/React-Portfolio/static/media/note.4f5329043b34a072eefa.png",
     "static/media/DomenicoBarberiResume.pdf": "/React-Portfolio/static/media/DomenicoBarberiResume.7cf74b1754cbc48efd8b.pdf",
     "static/media/JATE.png": "/React-Portfolio/static/media/JATE.becc36ef2cbe23926ba4.png",
     "index.html": "/React-Portfolio/index.html",
     "main.c4825361.css.map": "/React-Portfolio/static/css/main.c4825361.css.map",
-    "main.7e32aadb.js.map": "/React-Portfolio/static/js/main.7e32aadb.js.map"
+    "main.2adba1d5.js.map": "/React-Portfolio/static/js/main.2adba1d5.js.map"
   },
   "entrypoints": [
     "static/css/main.c4825361.css",
-    "static/js/main.7e32aadb.js"
+    "static/js/main.2adba1d5.js"
   ]
 }
