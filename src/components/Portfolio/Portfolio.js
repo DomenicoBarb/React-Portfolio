@@ -98,7 +98,7 @@ function Portfolio() {
 		{
 			name: 'Google Books Search',
 			description: 'This is an application that allows you to search for books using the Google Books API. You can save books to your library and delete them as well.',
-			image: 'book.png',
+			image: 'google.png',
 			technologies: ['HTML/CSS', 'JavaScript', "MongoDB", 'Express.js', 'React', 'Node.js'],
 			github: 'https://github.com/DomenicoBarb/Book-Search-Engine',
 			deployed: 'https://nicos-book-search-engine.herokuapp.com/',
