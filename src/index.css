@@ -286,7 +286,7 @@ header {
 	border-bottom-left-radius: 15px;
 	display: flex;
 	justify-content: space-between;
-	padding: 2rem;
+	padding:1.5rem;
 	text-align: center;
 	overflow: hidden;
 	position: relative;
@@ -404,24 +404,30 @@ header a {
 .card-title {
 	font-size: 1.5rem;
 	color: var(--textC);
-	-webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	-webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both,
+		text-shadow-drop-left 0.6s 1s both;
+	animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both,
+		text-shadow-drop-left 0.6s 1s both;
 }
 
 .card-subtitle {
 	font-size: 1rem;
 	color: var(--textC);
 	text-decoration: underline;
-	-webkit-animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	-webkit-animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both,
+		text-shadow-drop-left 0.6s 1s both;
+	animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both,
+		text-shadow-drop-left 0.6s 1s both;
 }
 
 .card-text {
 	font-size: 0.85rem;
 	height: 6em;
 	color: var(--textC);
-	-webkit-animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	-webkit-animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both,
+		text-shadow-drop-left 0.6s 1s both;
+	animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both,
+		text-shadow-drop-left 0.6s 1s both;
 }
 
 .card-techs {
@@ -652,8 +658,10 @@ ul li {
 }
 
 .navbar h2:hover {
-	-webkit-animation: vibrate-1 0.5s ease-in infinite both;
-	animation: vibrate-1 0.5s ease-in infinite both;
+	-webkit-animation: vibrate-1 0.6s ease-in infinite both,
+		text-shadow-drop-left 0.1s 0.1s both;
+	animation: vibrate-1 0.6s ease-in infinite both,
+		text-shadow-drop-left 0.1s 0.1s both;
 	cursor: none;
 }
 
@@ -726,6 +734,10 @@ nav a:hover {
 	text-decoration: none;
 }
 
+nav li {
+	top: 105;
+}
+
 nav li:hover {
 	cursor: pointer;
 	-webkit-animation: text-shadow-drop-center 0.1s both;
@@ -772,6 +784,7 @@ textarea {
 .flex-row {
 	display: flex;
 	justify-content: space-evenly;
+	top: 10%;
 }
 
 .space-between {
@@ -1030,8 +1043,10 @@ textarea {
 	line-height: 1.25;
 	padding-bottom: 2rem;
 	color: var(--primary);
-	-webkit-animation: focus-in-expand-fwd .4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: focus-in-expand-fwd .4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: focus-in-expand-fwd 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both,
+		text-shadow-drop-left 0.6s 0.4s both;
+	animation: focus-in-expand-fwd 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both,
+		text-shadow-drop-left 0.6s 0.4s both;
 }
 
 .bottom-spacing {
@@ -1112,10 +1127,32 @@ textarea {
 	width: 65%;
 	margin: 0 auto;
 	z-index: 1;
-	-webkit-animation: focus-in-expand-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: focus-in-expand-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-
+	-webkit-animation: focus-in-expand-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both,
+		text-shadow-drop-left 0.6s 1s both;
+	animation: focus-in-expand-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both,
+		text-shadow-drop-left 0.6s 1s both;
 }
+
+@-webkit-keyframes text-shadow-drop-left {
+	0% {
+		text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		text-shadow: -6px 0 18px rgba(0, 0, 0, 0.35);
+	}
+}
+
+@keyframes text-shadow-drop-left {
+	0% {
+		text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		text-shadow: -6px 0 18px rgba(0, 0, 0, 0.35);
+	}
+}
+
 
 @-webkit-keyframes focus-in-expand-fwd {
 	0% {
@@ -1163,15 +1200,19 @@ textarea {
 }
 
 .resume-formatting li {
-	-webkit-animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	-webkit-animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both,
+		text-shadow-drop-left 0.6s 1s both;
+	animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both,
+		text-shadow-drop-left 0.6s 1s both;
 }
 
 .resume-formatting h5 {
 	text-decoration: underline;
 	z-index: 2;
-	-webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	-webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both,
+		text-shadow-drop-left 0.6s 1s both;
+	animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both,
+		text-shadow-drop-left 0.6s 1s both;
 }
 
 @-webkit-keyframes tracking-in-expand {
@@ -1241,12 +1282,16 @@ textarea {
 
 	header div h2 {
 		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
+		top: 10%;
 	}
 
 	h2 {
 		font-size: 1.5rem;
+	}
+
+	nav {
+		top: -15%;
+		position: relative;
 	}
 
 	nav ul li span {
@@ -1299,8 +1344,10 @@ textarea {
 		display: block;
 		justify-content: center;
 		padding: 0;
-		-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-		animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+		-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both,
+			text-shadow-drop-left 0.6s 0.5s both;
+		animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both,
+			text-shadow-drop-left 0.6s 0.5s both;
 	}
 
 	ol {
