@@ -662,7 +662,7 @@ ul li {
 		text-shadow-drop-left 0.1s 0.1s both;
 	animation: vibrate-1 0.6s ease-in infinite both,
 		text-shadow-drop-left 0.1s 0.1s both;
-	cursor: none;
+	cursor: default;
 }
 
 @-webkit-keyframes vibrate-1 {
