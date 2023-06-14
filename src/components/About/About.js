@@ -16,7 +16,7 @@ export default function About() {
       <div className="bio-formatting">
         <p className="bio-text-formatting">
           Hello there! My name is Domenico Antonio Barberi but you can call me Nico.
-          I am a recent graduate from the Full Stack Web Developer Bootcamp at the University of Toronto!
+          I am a recent graduate from the Full Stack Web Developer Bootcamp at the University of Toronto! I am well versed with MERN stack applications but also learning Vue.js and Angular.
         </p>
         <br></br>
         <p className="bio-text-formatting">
@@ -31,8 +31,16 @@ export default function About() {
         </p>
         <br></br>
         <p className="bio-text-formatting">
-          Apart from that, my free time is filled with a variety of interests. I enjoy building custom mechanical keyboards (I have multiple Tofu builds and a recent KBD67 with Durock/JWK T1 - Tactile Switches under my belt).
-          Photography, especially nature and automotive, is another passion of mine; you'll often find me exploring with my Fujifilm X-T4. And let's not forget video games, an interest that may even become another career path for me!
+          Apart from that, my free time is filled with a variety of interests. I enjoy building custom mechanical keyboards (I have multiple Tofu builds and a recent KBD67 with Durock/JWK T1 Tactile Switches in my collection).
+          Photography, especially nature and automotive, is another passion of mine; you'll often find me exploring with my Fujifilm X-T4 in Komoka or at Toronto Motorsports Park!
+        </p>
+        <br></br>
+        <p className="bio-text-formatting">
+          I also like to play some video games in my free time, with my current main games being Escapse From Tarkov, Death Stranding, RDR2, CS:GO (CS2), and Super Mario Odyssey.
+        </p>
+        <br></br>
+        <p className="bio-text-formatting">
+          I am always open to new opportunities and challenges. If you have any questions or would like to get in touch, please feel free to reach out to me/connect on GitHub!
           Whether you're interested in collaborating on a project or just want to chat, feel free to get in touch!
         </p>
       </div>
