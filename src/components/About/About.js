@@ -15,14 +15,14 @@ export default function About() {
 
       <div className="bio-formatting">
         <p className="bio-text-formatting">
-          Hello there! My name is Domenico Antonio Barberi but you can also call me Nico!
-          I am currently honing my skills as a Full Stack Web Developmer at the University of Toronto's Coding Bootcamp!
+          Hello there! My name is Domenico Antonio Barberi but you can call me Nico.
+          I am a recent graduate from the Full Stack Web Developer Bootcamp at the University of Toronto!
         </p>
         <br></br>
         <p className="bio-text-formatting">
           My journey into web development stems from a lifelong fascination with technology and
           I have always been drawn to the exciting challenges of the tech world. Web development offered a perfect path for me to dive in and start creating.
-          Make sure to check out the resume section to learn more about the various technologies I've learned!
+          Make sure to check out the resume section to learn more about the various technologies I've learned.
         </p>
         <br></br>
         <p className="bio-text-formatting">
