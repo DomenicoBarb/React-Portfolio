@@ -15,7 +15,6 @@ function Footer() {
           title="My GitHub profile"
         />
       </a>
-	  {/* placeholder for linkedin */}
       <a
         href="https://www.linkedin.com/in/domenico-a-barberi/"
         target="_blank"
