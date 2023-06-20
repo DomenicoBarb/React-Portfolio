@@ -17,15 +17,15 @@ function Footer() {
       </a>
 	  {/* placeholder for linkedin */}
       <a
-        href="https://github.com/DomenicoBarb"
+        href="https://www.linkedin.com/in/domenico-a-barberi/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img
-          src={require("../../images/github-logo.png")}
-          alt="Github"
+          src={require("../../images/linkedin-logo.png")}
+          alt="LinkedIn"
           className="logo"
-          title="My GitHub profile"
+          title="My LinkedIn profile"
         />
       </a>
     </footer>
