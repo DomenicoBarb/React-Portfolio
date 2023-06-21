@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.d0c8680a.css",
+    "main.css": "/React-Portfolio/static/css/main.f7706425.css",
     "main.js": "/React-Portfolio/static/js/main.32e11241.js",
     "static/media/shiftwiz.gif": "/React-Portfolio/static/media/shiftwiz.1b7bbde0119382e3b46e.gif",
     "static/media/emp-demo.gif": "/React-Portfolio/static/media/emp-demo.a07887bfc84e348c66ba.gif",
@@ -10,17 +10,19 @@
     "static/media/portraitEX.png": "/React-Portfolio/static/media/portraitEX.493e5efdb34137f77123.png",
     "static/media/weather.png": "/React-Portfolio/static/media/weather.dbc66e46eb932438b302.png",
     "static/media/pass.png": "/React-Portfolio/static/media/pass.3066c0c127d2b4fe48eb.png",
+    "static/media/Switzer-Variable.ttf": "/React-Portfolio/static/media/Switzer-Variable.fa6516b65d6b10e1a3c7.ttf",
     "static/media/work.png": "/React-Portfolio/static/media/work.e9ea13c848fd82746e6b.png",
     "static/media/note.png": "/React-Portfolio/static/media/note.4f5329043b34a072eefa.png",
+    "static/media/Switzer-VariableItalic.ttf": "/React-Portfolio/static/media/Switzer-VariableItalic.46cbb7cb91227cea1138.ttf",
     "static/media/DomenicoBarberiResume.pdf": "/React-Portfolio/static/media/DomenicoBarberiResume.7cf74b1754cbc48efd8b.pdf",
     "static/media/JATE.png": "/React-Portfolio/static/media/JATE.becc36ef2cbe23926ba4.png",
     "static/media/linkedin-logo.png": "/React-Portfolio/static/media/linkedin-logo.a680cb8ad2b88be03d17.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.d0c8680a.css.map": "/React-Portfolio/static/css/main.d0c8680a.css.map",
+    "main.f7706425.css.map": "/React-Portfolio/static/css/main.f7706425.css.map",
     "main.32e11241.js.map": "/React-Portfolio/static/js/main.32e11241.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0c8680a.css",
+    "static/css/main.f7706425.css",
     "static/js/main.32e11241.js"
   ]
 }
