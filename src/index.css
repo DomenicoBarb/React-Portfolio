@@ -1309,7 +1309,7 @@ textarea {
 	padding: 25px;
 }
 
-@media screen and (max-width: 777px) {
+@media screen and (max-width: 860px) {
 	header div {
 		position: relative;
 		width: 100%;
