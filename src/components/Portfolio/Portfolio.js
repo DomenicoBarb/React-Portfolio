@@ -109,6 +109,22 @@ function Portfolio() {
 			github: 'https://github.com/DomenicoBarb/Book-Search-Engine',
 			deployed: 'https://nicos-book-search-engine.herokuapp.com/',
 		},
+		{
+			name: 'About Me Page (Netlify)',
+			description: 'This is a simple React app just to test some Ant Design components/animations and deploying to Netlify!',
+			image: 'AboutMe.png',
+			technologies: ['HTML', 'CSS/Ant Design', 'JavaScript', 'React', 'Netlify'],
+			github: 'https://github.com/DomenicoBarb/About-Me',
+			deployed: 'https://domenicobarberiwho.netlify.app/',
+		},
+		{
+			name: 'About Me Page (AWS/Amplify)',
+			description: 'This is a simple React app just to test some Ant Design components/animations and deploying to AWS!',
+			image: 'AboutMe.png',
+			technologies: ['HTML', 'CSS/Ant Design', 'JavaScript', 'React', 'AWS/Amplify'],
+			github: 'https://github.com/DomenicoBarb/About-Me',
+			deployed: 'https://dev.d3cbjkk0ofnz30.amplifyapp.com/',
+		},
 	];
 
 	return (
@@ -122,7 +138,18 @@ function Portfolio() {
 						<Project projects={projects[0]}></Project>
 					</li>
 					<li className="padding">
+						<Project projects={projects[10]}></Project>
+					</li>
+					<li className="padding">
+						<Project projects={projects[11]}></Project>
+					</li>
+				</ul>
+				<ul className="flex-row mobile-row2">
+					<li className="padding">
 						<Project projects={projects[9]}></Project>
+					</li>
+					<li className="padding">
+						<Project projects={projects[2]}></Project>
 					</li>
 					<li className="padding">
 						<Project projects={projects[1]}></Project>
@@ -130,27 +157,22 @@ function Portfolio() {
 				</ul>
 				<ul className="flex-row mobile-row2">
 					<li className="padding">
-						<Project projects={projects[2]}></Project>
-					</li>
-					<li className="padding">
-						<Project projects={projects[8]}></Project>
-					</li>
-					<li className="padding">
 						<Project projects={projects[5]}></Project>
-					</li>
-				</ul>
-				<ul className="flex-row mobile-row2">
-					<li className="padding">
-						<Project projects={projects[6]}></Project>
 					</li>
 					<li className="padding">
 						<Project projects={projects[7]}></Project>
 					</li>
 					<li className="padding">
-						<Project projects={projects[4]}></Project>
+						<Project projects={projects[6]}></Project>
 					</li>
 				</ul>
 				<ul className="flex-row mobile-row2">
+					<li className="padding">
+						<Project projects={projects[4]}></Project>
+					</li>
+					<li className="padding">
+						<Project projects={projects[8]}></Project>
+					</li>
 					<li className="padding">
 						<Project projects={projects[3]}></Project>
 					</li>

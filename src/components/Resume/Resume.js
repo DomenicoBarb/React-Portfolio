@@ -56,6 +56,8 @@ function Resume() {
 				<ol>
 					<li>Heroku</li>
 					<li>GitHub Pages</li>
+					<li>Netlify</li>
+					<li>AWS/Amplify</li>
 				</ol>
 			</div>
 			<div className="bottom-spacing">
