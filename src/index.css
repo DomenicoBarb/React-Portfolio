@@ -39,7 +39,7 @@ body {
 	background: linear-gradient(55deg, #0a854c, #0087a1);
 	background-size: 200% 200%;
 	animation: colorSweep 16s ease infinite;
-	-webkit-background: linear-gradient(90deg, #0a854c, #0087a1);
+	-webkit-background: linear-gradient(55deg, #0a854c, #0087a1);
 	-webkit-background-size: 200% 200%;
 	-webkit-animation: colorSweep 16s ease infinite;
 	color: var(--primary);
