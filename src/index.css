@@ -49,31 +49,31 @@ body {
 
 @keyframes colorSweep {
 	0% {
-	  background-position: 0% 50%;
+		background-position: 0% 50%;
 	}
-  
+
 	50% {
-	  background-position: 100% 50%;
+		background-position: 100% 50%;
 	}
-  
+
 	100% {
-	  background-position: 0% 50%;
+		background-position: 0% 50%;
 	}
-  }
-  
-  @-webkit-keyframes colorSweep {
+}
+
+@-webkit-keyframes colorSweep {
 	0% {
-	  background-position: 0% 50%;
+		background-position: 0% 50%;
 	}
-  
+
 	50% {
-	  background-position: 100% 50%;
+		background-position: 100% 50%;
 	}
-  
+
 	100% {
-	  background-position: 0% 50%;
+		background-position: 0% 50%;
 	}
-  }
+}
 
 @font-face {
 	font-family: 'Switzer';
@@ -337,7 +337,9 @@ header:before {
 	left: 0rem;
 	right: 0rem;
 	z-index: -1;
-	border: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
 }
 
 header a {
@@ -936,7 +938,9 @@ textarea {
 	left: 0rem;
 	right: 0rem;
 	z-index: -1;
-	border: 1px solid #fff;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
 }
 
 @-webkit-keyframes fade-in {
@@ -1599,7 +1603,6 @@ textarea {
 	input,
 	textarea {
 		width: 100%;
-		/* Adjust as needed */
 	}
 }
 
@@ -1644,6 +1647,15 @@ textarea {
 		padding-top: 5px;
 		padding-bottom: 10px;
 		margin: 15px;
+	}
+}
+
+@media (max-width: 960px) {
+	body {
+		background: linear-gradient(75deg, #0a854c, #0087a1);
+		background-size: 200% 200%;
+		animation: colorSweep 16s ease infinite;
+		-webkit-background: linear-gradient(75deg, #0a854c, #0087a1);
 	}
 }
 
