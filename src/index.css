@@ -772,10 +772,6 @@ nav a:hover {
 	text-decoration: none;
 }
 
-nav li {
-	top: 105;
-}
-
 nav li:hover {
 	cursor: pointer;
 	-webkit-animation: text-shadow-drop-center 0.1s both;
@@ -1313,7 +1309,7 @@ textarea {
 	padding: 25px;
 }
 
-@media screen and (max-width: 995px) {
+@media screen and (max-width: 777px) {
 	header div {
 		position: relative;
 		width: 100%;
@@ -1329,12 +1325,16 @@ textarea {
 	}
 
 	nav {
-		top: -15%;
+		top: -14%;
 		position: relative;
+	}
+	nav ul {
+		line-height:1.5;
 	}
 
 	nav ul li span {
-		font-size: 0.75em;
+		font-size: 0.9em;
+		line-height: 1;
 	}
 
 	.mobile-header {
