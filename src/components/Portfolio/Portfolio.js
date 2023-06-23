@@ -112,7 +112,7 @@ function Portfolio() {
 		{
 			name: 'About Me Page (Netlify)',
 			description: 'This is a simple React app just to test some Ant Design components/animations and deploying to Netlify!',
-			image: 'AboutMe.png',
+			image: 'AboutMe.gif',
 			technologies: ['HTML', 'CSS/Ant Design', 'JavaScript', 'React', 'Netlify'],
 			github: 'https://github.com/DomenicoBarb/About-Me',
 			deployed: 'https://domenicobarberiwho.netlify.app/',
@@ -120,7 +120,7 @@ function Portfolio() {
 		{
 			name: 'About Me Page (AWS/Amplify)',
 			description: 'This is a simple React app just to test some Ant Design components/animations and deploying to AWS!',
-			image: 'AboutMe.png',
+			image: 'AboutMe.gif',
 			technologies: ['HTML', 'CSS/Ant Design', 'JavaScript', 'React', 'AWS/Amplify'],
 			github: 'https://github.com/DomenicoBarb/About-Me',
 			deployed: 'https://dev.d3cbjkk0ofnz30.amplifyapp.com/',
