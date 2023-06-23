@@ -1652,10 +1652,12 @@ textarea {
 
 @media (max-width: 960px) {
 	body {
-		background: linear-gradient(75deg, #0a854c, #0087a1);
+		background: linear-gradient(90deg, #0a854c, #0087a1);
 		background-size: 200% 200%;
-		animation: colorSweep 16s ease infinite;
-		-webkit-background: linear-gradient(75deg, #0a854c, #0087a1);
+		animation: colorSweep 8s ease infinite;
+		-webkit-background: linear-gradient(90deg, #0a854c, #0087a1);
+		-webkit-background-size: 200% 200%;
+		-webkit-animation: colorSweep 8s ease infinite;
 	}
 }
 
