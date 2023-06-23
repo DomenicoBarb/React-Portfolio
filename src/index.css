@@ -123,7 +123,7 @@ h6 {
 }
 
 p {
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -1164,7 +1164,6 @@ textarea {
 .bio-text-formatting {
 	position: relative;
 	text-align: center;
-	width: 65%;
 	margin: 0 auto;
 	z-index: 1;
 	-webkit-animation: focus-in-expand-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both,
@@ -1536,15 +1535,102 @@ textarea {
 	}
 }
 
-@media (max-width: 1470px) {
+@media screen and (min-width: 1286px) {
 	.bio-text-formatting {
-		width: 60%;
+		width: 52%;
+	}
+	p {
+		font-size: 1.2rem;
 	}
 }
 
-@media (max-width: 1285px) {
+@media screen and (min-width: 1299px) {
 	.bio-text-formatting {
-		width: 95%;
+		width: 53%;
+	}
+	p {
+		font-size: 1.2rem;
+	}
+}
+
+@media screen and (min-width: 1299px) {
+	.bio-text-formatting {
+		width: 54%;
+	}
+	p {
+		font-size: 1.2rem;
+	}
+}
+
+@media screen and (min-width: 1470px) {
+	.bio-text-formatting {
+		width: 55%;
+	}
+	p {
+		font-size: 1.3rem;
+	}
+}
+
+@media screen and (min-width: 1630px) {
+	.bio-text-formatting {
+		width: 60%;
+	}
+	p {
+		font-size: 1.4rem;
+	}
+}
+
+@media screen and (min-width: 1846px) {
+	.bio-text-formatting {
+		width: 63%;
+	}
+	p {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (min-width: 2058px) {
+	.bio-text-formatting {
+		width: 70%;
+	}
+	p {
+		font-size: 1.6rem;
+	}
+}
+
+@media screen and (min-width: 2149px) {
+	.bio-text-formatting {
+		width: 74%;
+	}
+	p {
+		font-size: 1.7rem;
+	}
+}
+
+@media screen and (min-width: 2250px) {
+	.bio-text-formatting {
+		width: 75%;
+	}
+	p {
+		font-size: 1.7rem;
+	}
+}
+
+@media screen and (min-width: 2251px) {
+	.bio-text-formatting {
+		width: 77%;
+	}
+	p {
+		font-size: 1.8rem;
+	}
+}
+
+@media screen and (min-width: 3000px) {
+	.bio-text-formatting {
+		width: 80%; /* Default width for screen widths over 3000px */
+	}
+	p {
+		font-size: 2rem;
 	}
 }
 
