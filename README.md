@@ -18,16 +18,20 @@ This portfolio is a single page application built up using React, React icons, H
 You can then navigate to https://domenicobarb.github.io/React-Portfolio/ in your browser to use the application.
 
 ## Screenshot:
-Desktop:
+<p align="center">
+  <b>Desktop:</b>
+</p>
 
-![Screenshot of Application on Desktop](./src/assets/screenshot/NewDesktopLoop.gif)
+<p align="center">
+  <img width="1280" src="./src/assets/screenshot/LoopDesktop.gif">
+</p>
 
 <p align="center">
   <b>Mobile:</b>
 </p>
 
 <p align="center">
-  <img width="460" src="./src/assets/screenshot/NewMobileLoop.gif">
+  <img width="460" src="./src/assets/screenshot/LoopMobile.gif">
 </p>
 
 ## License
