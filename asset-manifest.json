@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.33808d60.css",
-    "main.js": "/React-Portfolio/static/js/main.1325d39a.js",
-    "static/media/vueloop.gif": "/React-Portfolio/static/media/vueloop.574697ee34815c36f3ec.gif",
-    "static/media/aboutmereact.gif": "/React-Portfolio/static/media/aboutmereact.aea590f7e83de8ba7e53.gif",
+    "main.js": "/React-Portfolio/static/js/main.4ccbd21c.js",
+    "static/media/Vue.gif": "/React-Portfolio/static/media/Vue.92a4ec1673a2f9cf68d2.gif",
+    "static/media/React.gif": "/React-Portfolio/static/media/React.d1191e911d60ccbb8786.gif",
+    "static/media/RR.gif": "/React-Portfolio/static/media/RR.06273e88854492d8ed49.gif",
     "static/media/shiftwiz.gif": "/React-Portfolio/static/media/shiftwiz.1b7bbde0119382e3b46e.gif",
     "static/media/emp-demo.gif": "/React-Portfolio/static/media/emp-demo.a07887bfc84e348c66ba.gif",
-    "static/media/RR.gif": "/React-Portfolio/static/media/RR.4108f456239748cc5857.gif",
     "static/media/google.png": "/React-Portfolio/static/media/google.f443cd7f7253f39d0689.png",
     "static/media/poke.png": "/React-Portfolio/static/media/poke.771210fb0b94bee54902.png",
     "static/media/portraitEX.png": "/React-Portfolio/static/media/portraitEX.493e5efdb34137f77123.png",
@@ -21,10 +21,10 @@
     "static/media/linkedin-logo.png": "/React-Portfolio/static/media/linkedin-logo.a680cb8ad2b88be03d17.png",
     "index.html": "/React-Portfolio/index.html",
     "main.33808d60.css.map": "/React-Portfolio/static/css/main.33808d60.css.map",
-    "main.1325d39a.js.map": "/React-Portfolio/static/js/main.1325d39a.js.map"
+    "main.4ccbd21c.js.map": "/React-Portfolio/static/js/main.4ccbd21c.js.map"
   },
   "entrypoints": [
     "static/css/main.33808d60.css",
-    "static/js/main.1325d39a.js"
+    "static/js/main.4ccbd21c.js"
   ]
 }
