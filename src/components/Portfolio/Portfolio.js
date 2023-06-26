@@ -112,7 +112,7 @@ function Portfolio() {
 		{
 			name: 'About Me Page (Netlify)',
 			description: 'This is a simple React app just to test some Ant Design components/animations and deploying to Netlify!',
-			image: 'AboutMe.gif',
+			image: 'aboutmereact.gif',
 			technologies: ['HTML', 'CSS/Ant Design', 'JavaScript', 'React', 'Netlify'],
 			github: 'https://github.com/DomenicoBarb/About-Me',
 			deployed: 'https://domenicobarberiwho.netlify.app/',
@@ -120,10 +120,18 @@ function Portfolio() {
 		{
 			name: 'About Me Page (AWS/Amplify)',
 			description: 'This is a simple React app just to test some Ant Design components/animations and deploying to AWS!',
-			image: 'AboutMe.gif',
+			image: 'aboutmereact.gif',
 			technologies: ['HTML', 'CSS/Ant Design', 'JavaScript', 'React', 'AWS/Amplify'],
 			github: 'https://github.com/DomenicoBarb/About-Me',
 			deployed: 'https://dev.d3cbjkk0ofnz30.amplifyapp.com/',
+		},
+		{
+			name: 'About Me Page (Vue)',
+			description: 'This is a simple Vue app just to test some Ant Design components/animations and deploying to Netlify!',
+			image: 'vueloop.gif',
+			technologies: ['HTML', 'CSS/Ant Design', 'JavaScript', 'Vue', 'Netlify'],
+			github: 'https://github.com/DomenicoBarb/Vue-Js-Test',
+			deployed: 'https://domenicobarberiwhovue.netlify.app/',
 		},
 	];
 
@@ -146,33 +154,38 @@ function Portfolio() {
 				</ul>
 				<ul className="flex-row mobile-row2">
 					<li className="padding">
+						<Project projects={projects[12]}></Project>
+					</li>
+					<li className="padding">
 						<Project projects={projects[9]}></Project>
 					</li>
 					<li className="padding">
 						<Project projects={projects[2]}></Project>
 					</li>
+				</ul>
+				<ul className="flex-row mobile-row2">
 					<li className="padding">
 						<Project projects={projects[1]}></Project>
 					</li>
-				</ul>
-				<ul className="flex-row mobile-row2">
 					<li className="padding">
 						<Project projects={projects[5]}></Project>
 					</li>
 					<li className="padding">
 						<Project projects={projects[7]}></Project>
 					</li>
+				</ul>
+				<ul className="flex-row mobile-row2">
 					<li className="padding">
 						<Project projects={projects[6]}></Project>
 					</li>
-				</ul>
-				<ul className="flex-row mobile-row2">
 					<li className="padding">
 						<Project projects={projects[4]}></Project>
 					</li>
 					<li className="padding">
 						<Project projects={projects[8]}></Project>
 					</li>
+				</ul>
+				<ul className="flex-row mobile-row2">
 					<li className="padding">
 						<Project projects={projects[3]}></Project>
 					</li>

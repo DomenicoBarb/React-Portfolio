@@ -16,6 +16,7 @@ function Resume() {
 					<li>jQuery</li>
 					<li>Bootstrap</li>
 					<li>React</li>
+					<li>Vue</li>
 					<li>Ant Design 5</li>
 					<li>Responsive/Mobile First Design</li>
 					<li>Version Control/Git</li>
