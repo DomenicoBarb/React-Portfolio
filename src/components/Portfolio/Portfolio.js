@@ -7,7 +7,7 @@ function Portfolio() {
 			name: 'Recall Rumble',
 			description:
 				'This app is an MERN SPA game! Match the cards in as few clicks as possible. The game is scored and the top 10 scores are saved to the leaderboard.',
-			image: 'rr.webp',
+			image: 'RR.gif',
 			technologies: [
 				'HTML',
 				'CSS/Ant Design',
@@ -112,7 +112,7 @@ function Portfolio() {
 		{
 			name: 'About Me Page (Netlify)',
 			description: 'This is a simple React app just to test some Ant Design components/animations and deploying to Netlify!',
-			image: 'aboutmereact.webp',
+			image: 'React.gif',
 			technologies: ['HTML', 'CSS/Ant Design', 'JavaScript', 'React', 'Netlify'],
 			github: 'https://github.com/DomenicoBarb/About-Me',
 			deployed: 'https://domenicobarberiwho.netlify.app/',
@@ -120,7 +120,7 @@ function Portfolio() {
 		{
 			name: 'About Me Page (AWS/Amplify)',
 			description: 'This is a simple React app just to test some Ant Design components/animations and deploying to AWS!',
-			image: 'aboutmereact.webp',
+			image: 'React.gif',
 			technologies: ['HTML', 'CSS/Ant Design', 'JavaScript', 'React', 'AWS/Amplify'],
 			github: 'https://github.com/DomenicoBarb/About-Me',
 			deployed: 'https://dev.d3cbjkk0ofnz30.amplifyapp.com/',
@@ -128,7 +128,7 @@ function Portfolio() {
 		{
 			name: 'About Me Page (Vue)',
 			description: 'This is a simple Vue app just to test some Ant Design components/animations and deploying to Netlify!',
-			image: 'vueloop.webp',
+			image: 'Vue.gif',
 			technologies: ['HTML', 'CSS/Ant Design', 'JavaScript', 'Vue', 'Netlify'],
 			github: 'https://github.com/DomenicoBarb/Vue-Js-Test',
 			deployed: 'https://domenicobarberiwhovue.netlify.app/',
