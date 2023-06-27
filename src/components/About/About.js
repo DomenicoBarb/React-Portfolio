@@ -15,33 +15,34 @@ export default function About() {
 
       <div className="bio-formatting">
         <p className="bio-text-formatting">
-          Hello there! My name is Domenico Antonio Barberi but you can call me Nico.
-          I am a recent graduate from the Full Stack Web Developer Bootcamp at the University of Toronto! I am well versed with MERN stack applications but also learning Vue.js and Angular.
+          Hello there! My name is Domenico Antonio Barberi but you can call me Nico and I am a recent graduate from the Full Stack Web Developer Bootcamp at the University of Toronto!
+          I am experienced with building MERN stack applications but also currently exploring Vue.js (3.X)!
         </p>
         <br></br>
         <p className="bio-text-formatting">
           My journey into web development stems from a lifelong fascination with technology and
-          I have always been drawn to the exciting challenges of the tech world. Web development offered a perfect path for me to dive in and start creating.
-          Make sure to check out the resume section to learn more about the various technologies I've learned.
+          I have always been tinkering with all forms of tech. Web development offered a perfect path for me to dive in and start creating!
+          Make sure to explore my portfolio and resume sections to learn more about the various technologies I've learned and projects I have created/been a part of.
         </p>
         <br></br>
         <p className="bio-text-formatting">
-          I am a huge believer in constant learning, growth, and positivity. I'm always ready to step out of my comfort zone to explore new challenges.
-          But life isn't all about code! When I'm not behind a computer screen, I cherish spending time with my family. As part of an Italian family, this bond has been an essential part of my life since day one.
+          I am a big believer in constant constantly evolving and positivity, if you smile at the world it will eventually smile back.
+          I'm always ready to step out of my comfort zone to explore new challenges within or outside tech!
+          But life isn't just about web development, when I'm not behind a computer screen I cherish spending time with my family. Being in an Italian family this bond has been an essential part of my life since day one and I always make time for my family (and everyone should!).
         </p>
         <br></br>
         <p className="bio-text-formatting">
-          Apart from that, my free time is filled with a variety of interests. I enjoy building custom mechanical keyboards (I have multiple Tofu builds and a recent KBD67 with Durock/JWK T1 Tactile Switches in my collection).
+          Apart from that, my free time is filled with a variety of interests/hobbies to decompress. I really enjoy building custom mechanical keyboards (I have multiple Tofu builds and a recent KBD67 with Durock/JWK T1 Tactile Switches in my collection).
           Photography, especially nature and automotive, is another passion of mine; you'll often find me exploring with my Fujifilm X-T4 in Komoka or at Toronto Motorsports Park!
         </p>
         <br></br>
         <p className="bio-text-formatting">
-          I also like to play some video games in my free time, with my current main games being Escapse From Tarkov, Death Stranding, RDR2, CS:GO (CS2), and Super Mario Odyssey.
+          I am also a bit of a gamer, with my current main games being Escapse From Tarkov, Death Stranding, RDR2, CS:GO (CS2), and recently beat Super Mario Odyssey (I highly recommend Super Mario Odyssey for ANY Mario fans 10/10).
         </p>
         <br></br>
         <p className="bio-text-formatting">
-          I am always open to new opportunities and challenges. If you have any questions or would like to get in touch, please feel free to reach out to me/connect on GitHub!
-          Whether you're interested in collaborating on a project or just want to chat, feel free to get in touch!
+          If you want to get in touch please feel free to reach out to me/connect on GitHub or LinkedIn!
+          Whether you're interested in collaborating on a project, just want to chat games or have any questions about one of my projects feel free to get in touch!
         </p>
       </div>
     </div>

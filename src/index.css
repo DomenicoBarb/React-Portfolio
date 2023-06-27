@@ -36,12 +36,12 @@ body {
 	line-height: 1.5;
 	font-size: 18px;
 	letter-spacing: .05em;
-	background: radial-gradient(circle at left center, #0a854c, #0087a1);
+	background: radial-gradient(circle at left center, #0087a1, #049853, #f2b63f);
 	background-size: 200% 200%;
-	animation: colorSweep 10s ease infinite;
-	-webkit-background: radial-gradient(circle at left center, #0a854c, #0087a1);
+	animation: colorSweep 16s ease infinite;
+	-webkit-background: radial-gradient(circle at left center, #0087a1, #049853, #f2b63f);
 	-webkit-background-size: 200% 200%;
-	-webkit-animation: colorSweep 10s ease infinite;
+	-webkit-animation: colorSweep 16s ease infinite;
 	color: var(--primary);
 	font-family: Helvetica, sans-serif;
 	min-height: 100vh;
