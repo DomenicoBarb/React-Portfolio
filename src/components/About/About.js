@@ -42,7 +42,7 @@ export default function About() {
         <br></br>
         <p className="bio-text-formatting">
           If you want to get in touch please feel free to reach out to me/connect on GitHub or LinkedIn!
-          Whether you're interested in collaborating on a project, just want to chat games or have any questions about one of my projects feel free to get in touch!
+          Whether you're interested in collaborating on a project, just want to chat about games or have any questions about one of my projects feel free to get in touch!
         </p>
       </div>
     </div>
