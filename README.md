@@ -48,5 +48,3 @@ Please visit my [GitHub](https://github.com/DomenicoBarb) to view my other work.
 
 ## Owner:
 Nico Barberi
-
-test change
