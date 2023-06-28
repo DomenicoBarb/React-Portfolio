@@ -774,8 +774,8 @@ nav a:hover {
 
 nav li:hover {
 	cursor: pointer;
-	-webkit-animation: text-shadow-drop-center 0.1s both;
-	animation: text-shadow-drop-center 0.1s both;
+	-webkit-animation: text-shadow-drop-center 0.0s both;
+	animation: text-shadow-drop-center 0.0s both;
 }
 
 @-webkit-keyframes text-shadow-drop-center {
@@ -910,6 +910,28 @@ textarea {
 
 .navActive {
 	color: #000000;
+	-webkit-animation: text-shadow-drop-center2 0.0s both;
+	animation: text-shadow-drop-center2 0.0s both;
+}
+
+@-webkit-keyframes text-shadow-drop-center2 {
+	0% {
+		text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		text-shadow: 0 0 26px rgb(0, 0, 0);
+	}
+}
+
+@keyframes text-shadow-drop-center2 {
+	0% {
+		text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		text-shadow: 0 0 26px rgb(0, 0, 0);
+	}
 }
 
 .footer {
@@ -1325,11 +1347,13 @@ textarea {
 	}
 
 	nav {
-		top: -14%;
+		top: -13%;
+		right: -20%;
 		position: relative;
 	}
+
 	nav ul {
-		line-height:1.5;
+		line-height: 1.5;
 	}
 
 	nav ul li span {
@@ -1349,7 +1373,7 @@ textarea {
 
 	.mobile-view {
 		display: inline;
-		text-align: end;
+		text-align: center;
 	}
 
 	input {
@@ -1627,7 +1651,8 @@ textarea {
 
 @media screen and (min-width: 3000px) {
 	.bio-text-formatting {
-		width: 80%; /* Default width for screen widths over 3000px */
+		width: 80%;
+		/* Default width for screen widths over 3000px */
 	}
 	p {
 		font-size: 2rem;
