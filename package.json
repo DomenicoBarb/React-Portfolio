@@ -1,6 +1,6 @@
 {
   "name": "react-portfolio",
-  "homepage": "https://DomenicoBarb.github.io/React-Portfolio/",
+  "homepage": "https://domenico-barberi-react-portfolio.netlify.app/",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
