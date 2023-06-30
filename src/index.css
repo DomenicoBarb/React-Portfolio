@@ -700,7 +700,7 @@ ul li {
 		text-shadow-drop-left 0.1s 0.1s both;
 	animation: vibrate-1 0.6s ease-in infinite both,
 		text-shadow-drop-left 0.1s 0.1s both;
-	cursor: default;
+	cursor: url(./images/mariosmall.png), auto;
 }
 
 @-webkit-keyframes vibrate-1 {
@@ -1562,6 +1562,7 @@ textarea {
 	.bio-text-formatting {
 		width: 52%;
 	}
+
 	p {
 		font-size: 1.2rem;
 	}
@@ -1571,6 +1572,7 @@ textarea {
 	.bio-text-formatting {
 		width: 53%;
 	}
+
 	p {
 		font-size: 1.2rem;
 	}
@@ -1580,6 +1582,7 @@ textarea {
 	.bio-text-formatting {
 		width: 54%;
 	}
+
 	p {
 		font-size: 1.2rem;
 	}
@@ -1589,6 +1592,7 @@ textarea {
 	.bio-text-formatting {
 		width: 55%;
 	}
+
 	p {
 		font-size: 1.3rem;
 	}
@@ -1598,6 +1602,7 @@ textarea {
 	.bio-text-formatting {
 		width: 60%;
 	}
+
 	p {
 		font-size: 1.4rem;
 	}
@@ -1607,6 +1612,7 @@ textarea {
 	.bio-text-formatting {
 		width: 63%;
 	}
+
 	p {
 		font-size: 1.5rem;
 	}
@@ -1616,6 +1622,7 @@ textarea {
 	.bio-text-formatting {
 		width: 70%;
 	}
+
 	p {
 		font-size: 1.6rem;
 	}
@@ -1625,6 +1632,7 @@ textarea {
 	.bio-text-formatting {
 		width: 74%;
 	}
+
 	p {
 		font-size: 1.7rem;
 	}
@@ -1634,6 +1642,7 @@ textarea {
 	.bio-text-formatting {
 		width: 75%;
 	}
+
 	p {
 		font-size: 1.7rem;
 	}
@@ -1643,6 +1652,7 @@ textarea {
 	.bio-text-formatting {
 		width: 77%;
 	}
+
 	p {
 		font-size: 1.8rem;
 	}
@@ -1653,6 +1663,7 @@ textarea {
 		width: 80%;
 		/* Default width for screen widths over 3000px */
 	}
+
 	p {
 		font-size: 2rem;
 	}
