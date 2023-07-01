@@ -913,7 +913,8 @@ ul {
 }
 
 .navActive {
-	color: #000000;
+	color: #ffffff;
+	font-style: italic;
 	-webkit-animation: text-shadow-drop-center2 0.0s both;
 	animation: text-shadow-drop-center2 0.0s both;
 }
@@ -924,7 +925,7 @@ ul {
 	}
 
 	100% {
-		text-shadow: 0 0 26px rgb(0, 0, 0);
+		text-shadow: 0 0 30px rgb(0, 0, 0);
 	}
 }
 
@@ -934,7 +935,7 @@ ul {
 	}
 
 	100% {
-		text-shadow: 0 0 26px rgb(0, 0, 0);
+		text-shadow: 0 0 18px rgb(0, 0, 0);
 	}
 }
 
@@ -1331,7 +1332,7 @@ ul {
 }
 
 .padding {
-	padding: 25px;
+	padding: 6px;
 }
 
 @media screen and (max-width: 860px) {
@@ -1342,7 +1343,7 @@ ul {
 
 	header div h2 {
 		position: absolute;
-		top: 10%;
+		top: 15%;
 	}
 
 	h2 {
@@ -1350,7 +1351,7 @@ ul {
 	}
 
 	nav {
-		top: -13%;
+		top: -2%;
 		right: -20%;
 		position: relative;
 	}
@@ -1402,6 +1403,12 @@ ul {
 		width: 100%;
 		margin-bottom: 10px;
 		text-align: center;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	header div h2 {
+		top: -2%;
 	}
 }
 
@@ -1468,7 +1475,7 @@ ul {
 @media screen and (max-width: 455px) {
 	.card-text {
 		font-size: 0.80rem;
-		height: 5rem;
+		height: 4rem;
 		color: var(--textC);
 	}
 
@@ -1485,7 +1492,7 @@ ul {
 @media screen and (max-width: 420px) {
 	.card-text {
 		font-size: 0.70rem;
-		height: 5rem;
+		height: 4rem;
 	}
 
 }
@@ -1509,16 +1516,20 @@ ul {
 
 @media screen and (max-width: 303px) {
 	.mobile-view {
-		font-size: 15px;
+		font-size: 12px;
 	}
 
 	header h2 {
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	.card-text {
 		font-size: 0.55rem;
 		height: 5rem;
+	}
+
+	header div h2 {
+		top: -10%;
 	}
 }
 
