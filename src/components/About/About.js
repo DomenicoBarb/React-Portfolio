@@ -1,5 +1,5 @@
 import React from 'react';
-import portraitImage from '../../assets/portrait/portraitEX.png'
+import portraitImage from '../../assets/portrait/portraitEX.webp'
 
 export default function About() {
   return (
