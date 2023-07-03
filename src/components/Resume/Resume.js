@@ -59,6 +59,7 @@ function Resume() {
 					<li>GitHub Pages</li>
 					<li>Netlify</li>
 					<li>AWS/Amplify</li>
+					<li>Vercel</li>
 				</ol>
 			</div>
 			<div className="bottom-spacing">
