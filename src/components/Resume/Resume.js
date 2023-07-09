@@ -46,6 +46,7 @@ function Resume() {
 				<ol>
 					<li>VS Code</li>
 					<li>Git</li>
+					<li>GitLab</li>
 					<li>npm</li>
 					<li>Webpack</li>
 					<li>Jest</li>
