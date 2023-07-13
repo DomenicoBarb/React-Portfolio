@@ -127,7 +127,7 @@ function Portfolio() {
 		},
 		{
 			name: 'About Me Page (Vue/Netlify)',
-			description: 'This is a simple Vue app just to test some Ant Design components/animations and deploying to Netlify!',
+			description: 'This is a simple Vue app to explore Ant Design components/animations within Vue.js and deploying to Netlify!',
 			image: 'Vue.gif',
 			technologies: ['HTML', 'CSS/Ant Design', 'JavaScript', 'Vue', 'Netlify'],
 			github: 'https://github.com/DomenicoBarb/Vue-Js-Test',
@@ -135,7 +135,7 @@ function Portfolio() {
 		},
 		{
 			name: 'React Typing Test',
-			description: 'This is a simple typing test app built with React and deployed to Netlify! This is a SPA (Single Page Application) and can be installed on your device.',
+			description: 'This is a Single Page App typing test built with React and deployed to Netlify!',
 			image: 'TTLoop.gif',
 			technologies: ['HTML', 'CSS/Ant Design', 'JavaScript', 'React', 'Netlify'],
 			github: 'https://github.com/DomenicoBarb/typing-test',
@@ -162,38 +162,33 @@ function Portfolio() {
 				</ul>
 				<ul className="flex-row mobile-row2">
 					<li className="padding">
-						<Project projects={projects[11]}></Project>
-					</li>
-					<li className="padding">
 						<Project projects={projects[9]}></Project>
 					</li>
 					<li className="padding">
 						<Project projects={projects[2]}></Project>
 					</li>
-				</ul>
-				<ul className="flex-row mobile-row2">
 					<li className="padding">
 						<Project projects={projects[1]}></Project>
 					</li>
+				</ul>
+				<ul className="flex-row mobile-row2">
 					<li className="padding">
 						<Project projects={projects[5]}></Project>
 					</li>
 					<li className="padding">
 						<Project projects={projects[7]}></Project>
 					</li>
-				</ul>
-				<ul className="flex-row mobile-row2">
 					<li className="padding">
 						<Project projects={projects[6]}></Project>
 					</li>
+				</ul>
+				<ul className="flex-row mobile-row2">
 					<li className="padding">
 						<Project projects={projects[4]}></Project>
 					</li>
 					<li className="padding">
 						<Project projects={projects[8]}></Project>
 					</li>
-				</ul>
-				<ul className="flex-row mobile-row2">
 					<li className="padding">
 						<Project projects={projects[3]}></Project>
 					</li>
