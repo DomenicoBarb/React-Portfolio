@@ -349,14 +349,6 @@ header a {
 	width: 100%;
 }
 
-#contact-form {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	z-index: 2;
-}
-
 .testAnimation {
 	-webkit-animation: swing-in-bottom-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
 	animation: swing-in-bottom-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
@@ -561,14 +553,12 @@ header a {
 	margin-right: 10px;
 	font-size: 30px;
 	color: #ffffff;
-	/* Customize icon color */
 }
 
 .app-link {
 	margin-top: 15px;
 	margin-left: 10px;
 	color: #ffffff;
-	/* Customize link color */
 }
 
 button {
@@ -688,7 +678,6 @@ ul li {
 	}
 }
 
-
 .navbar h2 {
 	color: #ffffff;
 
@@ -765,7 +754,6 @@ ul li {
 		transform: translate(0);
 	}
 }
-
 
 nav a:hover {
 	text-decoration: none;
@@ -1191,6 +1179,20 @@ ul {
 		text-shadow-drop-left 0.6s 1s both;
 	animation: focus-in-expand-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both,
 		text-shadow-drop-left 0.6s 1s both;
+}
+
+.bio-text-formatting .animated-word {
+	display: inline-block;
+	background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 162, 0));
+	background-size: 300% 300%;
+	animation: colorSweep 5s ease infinite;
+	background-clip: text;
+	color: transparent;
+	-webkit-background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 162, 0));
+	-webkit-background-size: 300% 300%;
+	-webkit-animation: colorSweep 5s ease infinite;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 @-webkit-keyframes text-shadow-drop-left {
@@ -1792,6 +1794,7 @@ ul {
 		-webkit-background-size: 300% 300%;
 		-webkit-animation: colorSweep 14s ease infinite;
 	}
+
 	.holder:before,
 	.holder:after {
 		width: 70px;
