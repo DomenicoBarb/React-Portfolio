@@ -32,14 +32,21 @@ function Resume() {
 					<li>PWA (Progressive Web Applications)</li>
 				</ol>
 				<br></br>
-				<h5>Database Technologies Experience:</h5>
+				<h5>Payment Processing:</h5>
 				<ol>
-					<li>MySQL</li>
-					<li>Sequelize</li>
-					<li>NoSQL</li>
-					<li>MongoDB</li>
-					<li>MongoDB Atlas Database</li>
-					<li>Mongoose</li>
+					<li>Stripe (Donation Page in Recall Rumble)</li>
+				</ol>
+				<br></br>
+				<h5>Dev Tool Experience:</h5>
+				<ol>
+					<li>VS Code</li>
+					<li>Git</li>
+					<li>GitLab</li>
+					<li>npm</li>
+					<li>Webpack</li>
+					<li>Jest</li>
+					<li>Nano (Text editor)</li>
+					<li>Vim (Text editor)</li>
 				</ol>
 				<br></br>
 				<h5>Dev Tool Experience:</h5>
