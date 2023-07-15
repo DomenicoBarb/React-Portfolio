@@ -43,7 +43,7 @@ body {
 	-webkit-background-size: 300% 300%;
 	-webkit-animation: colorSweep 14s ease infinite;
 	color: var(--primary);
-	font-family: Helvetica, sans-serif;
+	font-family: 'Inter', Helvetica, sans-serif;
 	min-height: 100vh;
 }
 
@@ -75,23 +75,13 @@ body {
 	}
 }
 
-@font-face {
-	font-family: 'Switzer';
-	src: url('./assets/fonts/Switzer-Variable.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Switzer-it';
-	src: url('./assets/fonts/Switzer-VariableItalic.ttf') format('truetype');
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	font-family: Helvetica, sans-serif;
+	font-family: 'Inter', Helvetica, sans-serif;
 	margin: 5px;
 	line-height: 1.25;
 }
@@ -470,7 +460,7 @@ header a {
 }
 
 .card-link {
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: 'Inter', Helvetica, sans-serif;
 	font-size: 0.70rem;
 }
 
