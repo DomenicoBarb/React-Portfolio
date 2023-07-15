@@ -15,7 +15,8 @@ export default function About() {
 
       <div className="bio-formatting">
         <p className="bio-text-formatting">
-          Hello there! My name is Domenico Antonio Barberi but you can call me Nico and I am a recent graduate from the Full Stack Web Developer Bootcamp at the University of Toronto!
+          Hello there! My name is Domenico Antonio Barberi but you can call me <span className="animated-word">Nico</span> (pronounced Knee-Coh)
+          and I am a recent graduate from the Full Stack Web Developer Bootcamp at the University of Toronto!
           I am experienced with building MERN stack applications but also currently exploring Vue.js (3.X)!
         </p>
         <br></br>
