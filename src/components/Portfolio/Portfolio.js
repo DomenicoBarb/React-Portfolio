@@ -168,24 +168,21 @@ function Portfolio() {
 						<Project projects={projects[2]}></Project>
 					</li>
 					<li className="padding">
-						<Project projects={projects[1]}></Project>
+						<Project projects={projects[5]}></Project>
 					</li>
 				</ul>
 				<ul className="flex-row mobile-row2">
-					<li className="padding">
-						<Project projects={projects[5]}></Project>
-					</li>
 					<li className="padding">
 						<Project projects={projects[7]}></Project>
 					</li>
 					<li className="padding">
 						<Project projects={projects[6]}></Project>
 					</li>
-				</ul>
-				<ul className="flex-row mobile-row2">
 					<li className="padding">
 						<Project projects={projects[4]}></Project>
 					</li>
+				</ul>
+				<ul className="flex-row mobile-row2">
 					<li className="padding">
 						<Project projects={projects[8]}></Project>
 					</li>
