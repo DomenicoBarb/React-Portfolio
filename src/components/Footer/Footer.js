@@ -13,6 +13,7 @@ function Footer() {
           alt="Github"
           className="logo"
           title="My GitHub profile"
+          loading="lazy"
         />
       </a>
       <a
@@ -25,6 +26,7 @@ function Footer() {
           alt="LinkedIn"
           className="logo"
           title="My LinkedIn profile"
+          loading="lazy"
         />
       </a>
     </footer>
