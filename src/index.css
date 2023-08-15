@@ -1161,10 +1161,8 @@ ul {
 	text-align: center;
 	margin: 0 auto;
 	z-index: 1;
-	-webkit-animation: focus-in-expand-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both,
-		text-shadow-drop-left 0.6s 1s both;
-	animation: focus-in-expand-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both,
-		text-shadow-drop-left 0.6s 1s both;
+	-webkit-animation: text-shadow-drop-left 0.6s 1s both;
+	animation: text-shadow-drop-left 0.6s 1s both;
 }
 
 .bio-text-formatting .animated-word {
