@@ -35,6 +35,7 @@ function Project(props) {
 					variant="top"
 					src={require(`../../images/${image}`)}
 					className="card-image"
+					loading="lazy"
 				/>
 				<div className="card-links">
 					<a href={gitLink} target="_blank" rel="noopener noreferrer">
