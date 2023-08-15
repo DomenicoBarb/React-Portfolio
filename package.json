@@ -1,6 +1,6 @@
 {
   "name": "react-portfolio",
-  "homepage": "https://domenico-barberi-react-portfolio.netlify.app/",
+  "homepage": "https://domenico-react-portfolio.vercel.app",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
