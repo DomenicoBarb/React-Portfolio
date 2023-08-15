@@ -29,6 +29,13 @@ body {
 	min-height: 100%;
 }
 
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+  }
+
 body {
 	margin: 0;
 	padding: 0;
