@@ -81,7 +81,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Inter', Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	margin: 5px;
 	line-height: 1.25;
 }
@@ -460,7 +460,7 @@ header a {
 }
 
 .card-link {
-	font-family: 'Inter', Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-size: 0.70rem;
 }
 
