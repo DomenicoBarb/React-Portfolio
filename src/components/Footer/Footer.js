@@ -14,7 +14,7 @@ function Footer() {
           className="logo"
           title="My GitHub profile"
           loading="lazy"
-          style={{ width: "50px", height: "50px" }}
+          style={{ width: "50px", height: "auto" }}
         />
       </a>
       <a
@@ -28,7 +28,7 @@ function Footer() {
           className="logo"
           title="My LinkedIn profile"
           loading="lazy"
-          style={{ width: "50px", height: "50px" }}
+          style={{ width: "50px", height: "auto" }}
         />
       </a>
     </footer>
