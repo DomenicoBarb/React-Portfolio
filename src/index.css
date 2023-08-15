@@ -542,7 +542,6 @@ header a {
 .github-icon {
 	margin-top: 15px;
 	margin-right: 10px;
-	font-size: 30px;
 	color: #ffffff;
 }
 
@@ -975,8 +974,8 @@ ul {
 	display: flex;
 	width: 50px;
 	justify-content: center;
-	margin: 15px;
-	padding-top: 10px;
+	margin: 15px 15px;
+	padding: 10px 10;
 }
 
 .logo:hover {
@@ -1768,7 +1767,7 @@ ul {
 		width: 40px;
 		padding-top: 5px;
 		padding-bottom: 10px;
-		margin: 15px;
+		margin: 10 15px;
 	}
 }
 
