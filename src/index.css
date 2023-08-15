@@ -29,14 +29,6 @@ body {
 	min-height: 100%;
 }
 
-@font-face {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 400;
-	src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
-	font-display: swap;
-  }
-
 body {
 	margin: 0;
 	padding: 0;
@@ -51,7 +43,7 @@ body {
 	-webkit-background-size: 300% 300%;
 	-webkit-animation: colorSweep 14s ease infinite;
 	color: var(--primary);
-	font-family: 'Inter', Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	min-height: 100vh;
 }
 
