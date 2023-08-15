@@ -633,8 +633,6 @@ ul li {
 .navbar {
 	position: relative;
 	z-index: 2;
-	-webkit-animation: scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @-webkit-keyframes scale-in-top {
@@ -924,8 +922,6 @@ ul {
 	text-align: center;
 	overflow: hidden;
 	position: relative;
-	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .footer:before {
