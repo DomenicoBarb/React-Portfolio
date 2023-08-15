@@ -34,6 +34,7 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+	font-display: swap;
   }
 
 body {
