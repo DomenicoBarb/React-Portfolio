@@ -9,12 +9,12 @@ if [[ "$VERCEL_ENV" == "production" ]] && [[ "$VERCEL_GIT_COMMIT_REF" == "vercel
   exit 1;
 
 elif [[ "$VERCEL_ENV" == "preview" ]]; then
-  # Proceed with the build for any preview branch
-  echo "✅ - Build can proceed for preview branch"
-  exit 1;
+  # Don't build for preview branches
+  echo "🛑 - Build cancelled for preview branch"
+  exit 0;
 
 else
-  # Don't build for other branches
-  echo "🛑 - Build cancelled for branch: $VERCEL_GIT_COMMIT_REF"
-  exit 0;
+  # Proceed with the build for other branches (not production or preview)
+  echo "✅ - Build can proceed for branch: $VERCEL_GIT_COMMIT_REF"
+  exit 1;
 fi
