@@ -7,7 +7,10 @@ function Portfolio() {
 			name: 'Recall Rumble',
 			description:
 				'This app is an MERN SPA game! Match the cards in as few clicks as possible. The game is scored and the top 10 scores are saved to the leaderboard.',
-			image: 'RR.gif',
+			image: {
+				src: 'RR.gif',
+				loading: 'eager',
+			},
 			technologies: [
 				'HTML',
 				'CSS/Ant Design',
@@ -31,7 +34,10 @@ function Portfolio() {
 			name: 'Shift-Wiz',
 			description:
 				'This is an employee scheduling application that allows employees to view their schedule, submit PTO, modify their availability, and call in sick all in one place!',
-			image: 'shiftwiz.gif',
+			image: {
+				src: 'shiftwiz.gif',
+				loading: 'eager',
+			},
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
@@ -47,7 +53,10 @@ function Portfolio() {
 			name: 'JATE',
 			description:
 				'A simple text editor that can be used offline. It is a PWA (Progressive Web App) and can be installed on your device.',
-			image: 'JATE.png',
+			image: {
+				src: 'JATE.png',
+				loading: 'eager',
+			},
 			technologies: ['HTML/CSS', 'JavaScript', 'WebPack', 'babel-loader', 'css-loader', 'Workbox'],
 			github: 'https://github.com/DomenicoBarb/Text-Editor',
 			deployed: 'https://nicos-jate.herokuapp.com/',
@@ -56,7 +65,10 @@ function Portfolio() {
 			name: 'Password-Generator',
 			description:
 				'This is an application that allows you to generate a password from 8 to 128 characters based on criteria you select.',
-			image: 'pass.png',
+			image: {
+				src: 'pass.png',
+				loading: 'eager',
+			},
 			technologies: ['HTML/CSS', 'JavaScript'],
 			github: 'https://github.com/DomenicoBarb/password-generator',
 			deployed: 'https://domenicobarb.github.io/password-generator/',
@@ -64,7 +76,10 @@ function Portfolio() {
 		{
 			name: 'Weather Dashboard',
 			description: 'A weather dashboard that shows current weather and five-day weather forecast for any city.',
-			image: 'weather.png',
+			image: {
+				src: 'weather.png',
+				loading: 'eager',
+			},
 			technologies: ['HTML/CSS', 'JavaScript'],
 			github: 'https://github.com/DomenicoBarb/weather-dashboard',
 			deployed: 'https://DomenicoBarb.github.io/weather-dashboard/',
@@ -72,7 +87,10 @@ function Portfolio() {
 		{
 			name: 'Employee Tracker',
 			description: "A command-line application to manage a company's employee database, using Node.js, Inquirer, MySQL and console.table/Chalk for styling.",
-			image: 'emp-demo.gif',
+			image: {
+				src: 'emp-demo.gif',
+				loading: 'eager',
+			},
 			technologies: ['HTML/CSS', 'JavaScript', 'MySQL', 'Inquirer', 'Chalk', 'console.table'],
 			github: 'https://github.com/DomenicoBarb/employee-tracker',
 			deployed: 'https://github.com/DomenicoBarb/employee-tracker',
@@ -80,7 +98,10 @@ function Portfolio() {
 		{
 			name: 'Workday Scheduler',
 			description: 'This is a calendar that allows a user to save events for each hour of the day. This app will run in the browser & feature dynamically updated HTML & CSS.',
-			image: 'work.png',
+			image: {
+				src: 'work.png',
+				loading: 'lazy', // or 'eager'
+			},
 			technologies: ['HTML/CSS', 'JavaScript/jQuery', 'Moment.js'],
 			github: 'https://github.com/DomenicoBarb/work-day-scheduler',
 			deployed: 'https://DomenicoBarb.github.io/work-day-scheduler/',
@@ -88,7 +109,10 @@ function Portfolio() {
 		{
 			name: 'Pokemon Battle',
 			description: 'This generator offers valuable information about the selected Pokémon character and the most advantageous opponent in battle.',
-			image: 'poke.png',
+			image: {
+				src: 'poke.png',
+				loading: 'lazy', // or 'eager'
+			},
 			technologies: ['HTML/CSS', 'JavaScript'],
 			github: 'https://github.com/DomenicoBarb/PokemonBattle',
 			deployed: 'https://DomenicoBarb.github.io/PokemonBattle/',
@@ -96,7 +120,10 @@ function Portfolio() {
 		{
 			name: 'Express Note Taker',
 			description: 'This is an application that can be used to write, save, and delete notes. This application uses an express backend and saves and retrieves note data from a JSON file.',
-			image: 'note.png',
+			image: {
+				src: 'note.png',
+				loading: 'lazy', // or 'eager'
+			},
 			technologies: ['HTML/CSS', 'JavaScript', 'Node.js', 'Express.js'],
 			github: 'https://github.com/DomenicoBarb/Note-Taker',
 			deployed: 'https://nicos-note-taker.herokuapp.com/',
@@ -104,7 +131,10 @@ function Portfolio() {
 		{
 			name: 'Google Books Search',
 			description: 'This is an MERN stack application that allows you to search for books using the Google Books API. You can make a secure account and save books to your library and delete them as well.',
-			image: 'google.png',
+			image: {
+				src: 'google.png',
+				loading: 'lazy', // or 'eager'
+			},
 			technologies: ['HTML/CSS', 'JavaScript', "bcrypt", 'Json Web Tokens', "MongoDB", 'Express.js', 'React', 'Node.js', 'Heroku'],
 			github: 'https://github.com/DomenicoBarb/Book-Search-Engine',
 			deployed: 'https://nicos-book-search-engine.herokuapp.com/',
@@ -112,7 +142,10 @@ function Portfolio() {
 		{
 			name: 'About Me Page (Netlify)',
 			description: 'This is a simple React app just to test some Ant Design components/animations and deploying to Netlify!',
-			image: 'React.gif',
+			image: {
+				src: 'React.gif',
+				loading: 'lazy', // or 'eager'
+			},
 			technologies: ['HTML', 'CSS/Ant Design', 'JavaScript', 'React', 'Netlify'],
 			github: 'https://github.com/DomenicoBarb/About-Me',
 			deployed: 'https://domenicobarberiwho.netlify.app/',
@@ -120,7 +153,10 @@ function Portfolio() {
 		{
 			name: 'About Me Page (React/Amplify)',
 			description: 'This is a simple React app just to test some Ant Design components/animations and deploying to AWS!',
-			image: 'React.gif',
+			image: {
+				src: 'React.gif',
+				loading: 'lazy', // or 'eager'
+			},
 			technologies: ['HTML', 'CSS/Ant Design', 'JavaScript', 'React', 'AWS/Amplify'],
 			github: 'https://github.com/DomenicoBarb/About-Me',
 			deployed: 'https://dev.d3cbjkk0ofnz30.amplifyapp.com/',
@@ -128,7 +164,10 @@ function Portfolio() {
 		{
 			name: 'About Me Page (Vue/Netlify)',
 			description: 'This is a simple Vue app to explore Ant Design components/animations within Vue.js and deploying to Netlify!',
-			image: 'Vue.gif',
+			image: {
+				src: 'Vue.gif',
+				loading: 'lazy', // or 'eager'
+			},
 			technologies: ['HTML', 'CSS/Ant Design', 'JavaScript', 'Vue', 'Netlify'],
 			github: 'https://github.com/DomenicoBarb/Vue-Js-Test',
 			deployed: 'https://domenicobarberiwhovue.netlify.app/',
@@ -136,7 +175,10 @@ function Portfolio() {
 		{
 			name: 'React Typing Test',
 			description: 'This is a Single Page App typing test built with React and deployed to Netlify!',
-			image: 'TTLoop.gif',
+			image: {
+				src: 'TTLoop.gif',
+				loading: 'lazy', // or 'eager'
+			},
 			technologies: ['HTML', 'CSS/Ant Design', 'JavaScript', 'React', 'Netlify'],
 			github: 'https://github.com/DomenicoBarb/typing-test',
 			deployed: 'https://nicos-react-typing-test.netlify.app/',
