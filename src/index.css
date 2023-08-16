@@ -468,7 +468,6 @@ header a {
 	transition: filter 0.3s;
 	border-radius: 10px;
 	border: 1px solid rgb(255, 255, 255);
-	/* Project image border colour/size */
 }
 
 .card-image-container {
