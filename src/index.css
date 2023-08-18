@@ -45,6 +45,7 @@ body {
 	color: var(--primary);
 	font-family: Helvetica, sans-serif;
 	min-height: 100vh;
+	will-change: background-position;
 }
 
 @keyframes colorSweep {
@@ -146,6 +147,7 @@ a:hover {
 	border-radius: 50%;
 	animation: orbit 5s linear infinite;
 	-webkit-animation: orbit 5s linear infinite;
+	will-change: transform;
 }
 
 .holder:before {
@@ -211,6 +213,7 @@ a:hover {
 	opacity: 1;
 	-webkit-animation: scale-in-tr 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: scale-in-tr 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	will-change: opacity transform transform-origin;
 }
 
 @-webkit-keyframes scale-in-tr {
@@ -261,6 +264,7 @@ a:hover {
 	width: 250px;
 	-webkit-animation: scale-in-tl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: scale-in-tl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	will-change: transform transform-origin;
 }
 
 @-webkit-keyframes scale-in-tl {
