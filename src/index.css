@@ -43,8 +43,9 @@ body {
 	-webkit-background-size: 300% 300%;
 	-webkit-animation: colorSweep 14s ease infinite;
 	color: var(--primary);
-	font-family: 'Inter', Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	min-height: 100vh;
+	will-change: background-position;
 }
 
 @keyframes colorSweep {
@@ -81,7 +82,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Inter', Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	margin: 5px;
 	line-height: 1.25;
 }
@@ -146,6 +147,7 @@ a:hover {
 	border-radius: 50%;
 	animation: orbit 5s linear infinite;
 	-webkit-animation: orbit 5s linear infinite;
+	will-change: transform;
 }
 
 .holder:before {
@@ -211,6 +213,7 @@ a:hover {
 	opacity: 1;
 	-webkit-animation: scale-in-tr 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: scale-in-tr 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	will-change: opacity transform transform-origin;
 }
 
 @-webkit-keyframes scale-in-tr {
@@ -261,6 +264,7 @@ a:hover {
 	width: 250px;
 	-webkit-animation: scale-in-tl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: scale-in-tl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	will-change: transform transform-origin;
 }
 
 @-webkit-keyframes scale-in-tl {
@@ -440,6 +444,24 @@ header a {
 		text-shadow-drop-left 0.6s 1s both;
 }
 
+.placeholder-silhouette {
+  width: 100%;
+  height: 200px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  animation: flicker 1s infinite;
+}
+
+/* Add a flickering animation for loading state */
+@keyframes flicker {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
 .card-text {
 	font-size: 0.9rem;
 	color: var(--textC);
@@ -460,14 +482,14 @@ header a {
 }
 
 .card-link {
-	font-family: 'Inter', Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-size: 0.70rem;
 }
 
 .card-image {
 	transition: filter 0.3s;
 	border-radius: 10px;
-	border: 2px solid rgb(255, 255, 255);
+	border: 1px solid rgb(255, 255, 255);
 }
 
 .card-image-container {
@@ -542,14 +564,24 @@ header a {
 .github-icon {
 	margin-top: 15px;
 	margin-right: 10px;
-	font-size: 30px;
 	color: #ffffff;
+	font-size: 46px;
+}
+
+.github-icon:hover {
+	color: #f98a05;
+	transform: scale(1.2);
 }
 
 .app-link {
 	margin-top: 15px;
 	margin-left: 10px;
 	color: #ffffff;
+	font-size: 18px;
+}
+
+.app-link:hover {
+	color: #f98a05;
 }
 
 button {
@@ -633,8 +665,6 @@ ul li {
 .navbar {
 	position: relative;
 	z-index: 2;
-	-webkit-animation: scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @-webkit-keyframes scale-in-top {
@@ -902,7 +932,7 @@ ul {
 	}
 
 	100% {
-		text-shadow: 0 0 30px rgb(0, 0, 0);
+		text-shadow: 0 0 18px rgb(0, 0, 0);
 	}
 }
 
@@ -924,8 +954,6 @@ ul {
 	text-align: center;
 	overflow: hidden;
 	position: relative;
-	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .footer:before {
@@ -979,8 +1007,8 @@ ul {
 	display: flex;
 	width: 50px;
 	justify-content: center;
-	margin: 15px;
-	padding-top: 10px;
+	margin: 15px 15px;
+	padding: 10px 10;
 }
 
 .logo:hover {
@@ -1194,20 +1222,18 @@ ul {
 	text-align: center;
 	margin: 0 auto;
 	z-index: 1;
-	-webkit-animation: focus-in-expand-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both,
-		text-shadow-drop-left 0.6s 1s both;
-	animation: focus-in-expand-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both,
-		text-shadow-drop-left 0.6s 1s both;
+	-webkit-animation: text-shadow-drop-left 0.6s 1s both;
+	animation: text-shadow-drop-left 0.6s 1s both;
 }
 
 .bio-text-formatting .animated-word {
 	display: inline-block;
-	background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 162, 0));
+	background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 162, 0));
 	background-size: 300% 300%;
 	animation: colorSweep 5s ease infinite;
 	background-clip: text;
 	color: transparent;
-	-webkit-background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 162, 0));
+	-webkit-background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 162, 0));
 	-webkit-background-size: 300% 300%;
 	-webkit-animation: colorSweep 5s ease infinite;
 	-webkit-background-clip: text;
@@ -1800,7 +1826,7 @@ ul {
 		width: 40px;
 		padding-top: 5px;
 		padding-bottom: 10px;
-		margin: 15px;
+		margin: 10 15px;
 	}
 }
 
