@@ -44,7 +44,7 @@ function Project(props) {
   useEffect(() => {
     const flickerInterval = setInterval(() => {
       setShowPlaceholder((prevShowPlaceholder) => !prevShowPlaceholder);
-    }, 1000); // Adjust the interval duration as needed
+    }, 500); // Adjust the interval duration as needed
 
     return () => {
       clearInterval(flickerInterval);
