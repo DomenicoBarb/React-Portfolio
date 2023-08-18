@@ -543,12 +543,23 @@ header a {
 	margin-top: 15px;
 	margin-right: 10px;
 	color: #ffffff;
+	font-size: 30px;
+}
+
+.github-icon:hover {
+	color: #f98a05;
+	transform: scale(1.2);
 }
 
 .app-link {
 	margin-top: 15px;
 	margin-left: 10px;
 	color: #ffffff;
+	font-size: 18px;
+}
+
+.app-link:hover {
+	color: #f98a05;
 }
 
 button {
