@@ -69,7 +69,7 @@ function Resume() {
 				</ol>
 			</div>
 			<div className="bottom-spacing">
-				<a href={require("../../assets/resume/DomenicoBarberi2024PortfolioResume.pdf")} download>
+				<a href={require("../../assets/resume/DomenicoBarberiPortfolio2024.pdf")} download>
 					<h4 className='resume-h4'><BsCloudDownload className="BsCloudDownload" /> Download Resume <BsCloudDownload className="BsCloudDownload" />
 					</h4>
 				</a>
