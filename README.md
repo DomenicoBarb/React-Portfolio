@@ -15,7 +15,7 @@ This portfolio is a single page application built up using React, React icons, H
 
 
 ## Deployed Application
-You can then navigate to https://domenico-barberi-react-portfolio.netlify.app/ in your browser to use the application.
+You can navigate to https://domenico-barberi-react-portfolio.netlify.app/ in your browser to use the application.
 
 ## Screenshot:
 <p align="center">
